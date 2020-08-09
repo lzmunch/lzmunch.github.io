@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router } from 'react-router-dom'; 
 import './App.css';
-import Content from './components/content.js';
+import Content from './Content.js';
 
 class App extends Component {
   render() {
