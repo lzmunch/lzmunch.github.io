@@ -1,11 +1,10 @@
 body {
   font-family: "courier new";
-  max-width: 800px;
+  /*max-width: 800px;*/
   width: 90vw;
   margin: auto;
   margin-bottom: 100px;
   margin-top: 20px;
-
 }
 
 .App {

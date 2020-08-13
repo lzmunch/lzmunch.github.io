@@ -5,16 +5,7 @@ import ReactEmbedGist from 'react-embed-gist';
 import TestPage from './assets/pages/test';
 import Test2Page from './assets/pages/test2';
 import MiiPage from './assets/pages/mii';
-
-function ProjectModalImage(props) {
-  return ( 
-    <ModalImage 
-      className="smallImg"
-      small={require(""+props.imgPath)} 
-      hideDownload="true" 
-      hideZoom="true"/>
-  );
-}
+import AboutPage from './assets/pages/about';
 
 class Project extends Component {
   constructor(props) {
@@ -23,6 +14,8 @@ class Project extends Component {
   render() {
     console.log("project", this.props.link);
     switch(this.props.link) {
+      case "about":
+        return (<AboutPage />);
       case "test2": 
         return (<Test2Page />);
       case "test": 
@@ -33,7 +26,7 @@ class Project extends Component {
         return (
           <div className="Project">
             <div id="frontpage">
-              <p> Home page stuff </p>
+              <p> Software Developer + Creative </p>
               <ProjectModalImage imgPath="./assets/thumbnails/mii.png" />
               <ProjectModalImage imgPath="./assets/thumbnails/test.jpg" />
               <ProjectModalImage imgPath="./assets/thumbnails/test2.jpg" />
@@ -48,6 +41,16 @@ class Project extends Component {
         );
     }
   }
+}
+
+function ProjectModalImage(props) {
+  return ( 
+    <ModalImage 
+      className="smallImg"
+      small={require(""+props.imgPath)} 
+      hideDownload="true" 
+      hideZoom="true"/>
+  );
 }
 
 export default Project;

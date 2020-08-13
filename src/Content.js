@@ -5,6 +5,39 @@ import Gallery from './Gallery.js';
 import Project from './Project.js';
 import './Content.css';
 
+class App extends Component {
+  constructor(props) {
+    super(props); 
+    this.state = {
+      current: "home"
+    };
+  } 
+  render() {
+    let pageLinks = getPageLinks();
+    return (
+        <div className="Content">
+        <br></br>
+            <div className="Header">
+              <div id="name">LAUREN ZHANG</div>
+              <div id="buttons">
+                <ButtonLink text="home" scope={this}></ButtonLink>
+                <ButtonLink text="code" scope={this}></ButtonLink>
+                <ButtonLink text="art" scope={this}></ButtonLink>
+                <ButtonLink text="fun" scope={this}></ButtonLink>
+                <ButtonLink text="about" scope={this}></ButtonLink>
+              </div>
+            </div>
+            <Switch>
+                {pageLinks}
+                <Route path={'/homepage'} component={() => <Project link="home"/>} />
+                <Route path={'/about'} component={() => <Project link="about"/>} />
+                <Route path={'/'} component={() => <Gallery current="home"/>} />
+            </Switch>
+        </div>
+    );
+  }
+}
+
 function ButtonLink(props) {
   let that = props.scope;
   console.log("buttonlink", that.state);
@@ -40,37 +73,5 @@ function getPageLinks() {
   }
   return items;
 }
-
-class App extends Component {
-  constructor(props) {
-    super(props); 
-    this.state = {
-      current: "home"
-    };
-  } 
-  render() {
-    let pageLinks = getPageLinks();
-    return (
-        <div className="Content">
-        <br></br>
-            <div className="Header">
-              <div id="name">LAUREN ZHANG</div>
-              <div id="buttons">
-                <Link className={"button " + (this.state.current === "home" ? "active" : "")} to="/" onClick={() => this.setState({current: "home"})}>home</Link>
-                <ButtonLink text="code" scope={this}></ButtonLink>
-                <ButtonLink text="art" scope={this}></ButtonLink>
-                <ButtonLink text="fun" scope={this}></ButtonLink>
-                <ButtonLink text="about" scope={this}></ButtonLink>
-              </div>
-            </div>
-            <Switch>
-                {pageLinks}
-                <Route path={'/'} component={() => <Project link="home"/>} />
-            </Switch>
-        </div>
-    );
-  }
-}
-
 
 export default App;

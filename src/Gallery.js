@@ -8,10 +8,10 @@ class Gallery extends Component {
   constructor(props) {
     super(props); 
     this.state = {
-      categories: { "code" : ["test"],
-                    "fun" : ["mii"],
+      categories: { "code" : ["mii", "create-lab"],
+                    "fun" : ["test"],
                     "art" : ["mii", "test2"],
-                    "all" : ["mii","test","test2"],
+                    "home" : ["mii","test","test2", "create-lab"],
                     "" : []
                   },
     };
@@ -23,9 +23,17 @@ class Gallery extends Component {
           <Box link="mii" filetype=".png"  desc="Mii Simulator" filter={this.state.categories[this.props.current]}/> 
           <Box link="test" filetype=".jpg"  desc="Test" filter={this.state.categories[this.props.current]}/> 
           <Box link="test2" filetype=".jpg"  desc="Test 2" filter={this.state.categories[this.props.current]}/> 
+          <GalleryBox scope={this} link="create-lab" filetype=".png" desc="CMU Create Lab" />
         </div>           
     );
   }
+}
+
+function GalleryBox(props) {
+    let that = props.scope;
+    return (
+      <Box link={props.link} filetype={props.filetype}  desc={props.desc} filter={that.state.categories[that.props.current]}/> 
+    );
 }
 
 class Box extends Component { 
