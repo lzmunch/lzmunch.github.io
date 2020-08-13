@@ -23,27 +23,21 @@ function ButtonLink(props) {
 // Link pages from pages.json
 // key prop of Route is to get rid of an error that insists it has a key idk
 function getPageLinks() {
-  let pagesJson = require("./assets/pages.json");
-  console.log(pagesJson);
+  // let pagesJson = require("./assets/pages.json");
+  // console.log(pagesJson);
+  let projectsJson = require("./assets/projects.json");
+  console.log(projectsJson);
   let items = [];
-  for (let page of pagesJson){
-    let key = page.key;
-    if (page.type == "gallery"){
-      items.push(<Route key={key} path={'/'+key} component={() => <Gallery current={key}/>} />);
-    } else {
-      items.push(<Route key={key} path={'/'+key} component={() => <Project link={key}/>} />);
-    }
+  // gallery pages
+  let galleries = ["code", "fun", "art"];
+  for (let g of galleries) {
+    items.push(<Route key={g} path={'/'+g} component={() => <Gallery current={g}/>} />);
   }
-  // // gallery pages
-  // let galleries = ["code", "fun", "art"];
-  // for (let g of galleries) {
-  //   items.push(<Route key={g} path={'/'+g} component={() => <Gallery current={g}/>} />);
-  // }
-  // // project pages
-  // let projects = ["test", "test2", "mii"];
-  // for (let p of projects) {
-  //   items.push(<Route key={p} path={'/'+p} component={() => <Project link={p}/>} />);
-  // }
+  // project pages
+  for (let p of projectsJson) {
+    let k = p.key;
+    items.push(<Route key={k} path={'/'+k} component={() => <Project link={k}/>} />);
+  }
   return items;
 }
 

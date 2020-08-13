@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
 import ReactEmbedGist from 'react-embed-gist';
 
+import TestPage from './assets/pages/test';
+import Test2Page from './assets/pages/test2';
+import MiiPage from './assets/pages/mii';
+
 function ProjectModalImage(props) {
   return ( 
     <ModalImage 
@@ -20,26 +24,11 @@ class Project extends Component {
     console.log("project", this.props.link);
     switch(this.props.link) {
       case "test2": 
-        return (
-          <div className="Project">
-            <h>Test 2</h>
-            noop
-          </div>
-        );
+        return (<Test2Page />);
       case "test": 
-        return (
-          <div className="Project">
-            <h>Test</h>
-            neep
-          </div>
-        );
+        return ( <TestPage/>);
       case "mii":
-        return (
-            <div className="Project">
-              <h>Mii Simulator</h>
-              :(
-            </div>
-        );
+        return ( <MiiPage/>);
       case "home": 
         return (
           <div className="Project">
