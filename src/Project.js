@@ -43,11 +43,12 @@ class Project extends Component {
   }
 }
 
-function ProjectModalImage(props) {
+export const ProjectModalImage = (props) => {
   return ( 
     <ModalImage 
       className="smallImg"
-      small={require(""+props.imgPath)} 
+      small={require("" + props.imgPath)} 
+      large={require("" + props.largeImgPath ? props.largeImgPath : props.imgPath)}
       hideDownload="true" 
       hideZoom="true"/>
   );

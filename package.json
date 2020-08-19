@@ -4,11 +4,14 @@
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.6.3",
     "react-embed-gist": "^1.0.7",
+    "react-instagram-embed": "^1.5.0",
     "react-modal-image": "^2.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-simple-modal-slideshow": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
