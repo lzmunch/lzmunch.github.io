@@ -3,7 +3,6 @@ import ModalImage from 'react-modal-image'
 import ReactEmbedGist from 'react-embed-gist';
 
 import TestPage from './assets/pages/test';
-import Test2Page from './assets/pages/test2';
 import MiiPage from './assets/pages/mii';
 import AboutPage from './assets/pages/about';
 import CreateLabPage from './assets/pages/create-lab';
@@ -17,8 +16,6 @@ class Project extends Component {
     switch(this.props.link) {
       case "about":
         return (<AboutPage />);
-      case "test2": 
-        return (<Test2Page />);
       case "test": 
         return ( <TestPage/>);
       case "mii":

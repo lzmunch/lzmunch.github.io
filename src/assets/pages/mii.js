@@ -14,7 +14,7 @@ const project = () => (
 
 	    <p>Technologies Used: Unity, Blendr</p>
 
-	    <p>Displayed at <a href="https://www.instagram.com/theframegallerycmu/">The Frame Gallery</a> at CMU with xX_CutePixel_Xx (below)</p>
+	    <p>Set up to work with Wii controllers and displayed at <a href="https://www.instagram.com/theframegallerycmu/">The Frame Gallery</a> at CMU with xX_CutePixel_Xx </p>
 	    <InstagramEmbed
 		   url='https://www.instagram.com/p/B8TM6OOn21t/?utm_source=ig_web_copy_link'
 		   maxWidth={600}

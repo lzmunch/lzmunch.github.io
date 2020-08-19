@@ -15,6 +15,7 @@ class App extends Component {
   } 
   render() {
     let pageLinks = getPageLinks();
+    let decor = {l:"<", r:">"};
     return (
         <div className="Content">
         <br></br>
@@ -27,6 +28,8 @@ class App extends Component {
                 <ButtonLink text="fun" scope={this}></ButtonLink>
                 <ButtonLink text="about" scope={this}></ButtonLink>
               </div>
+              <div style={{width:"100%", height:"2px", background:"black"}}></div>
+              <br/>
             </div>
             <Switch>
                 {pageLinks}
@@ -48,7 +51,7 @@ function ButtonLink(props) {
       className={"button " + (that.state.current === props.text ? "active" : "")} 
       to={"/"+props.text} 
       onClick={() => that.setState({current: props.text})}>
-        {props.text}
+        {"[" + props.text + "]"}
     </Link>
 
   );
