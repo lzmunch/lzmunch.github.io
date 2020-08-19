@@ -1,18 +1,7 @@
 import React from 'react';
 import InstagramEmbed from 'react-instagram-embed';
-// import ProjectModalImage from '../../Project';
-import ModalImage from 'react-modal-image';
-// import SimpleModalSlideshow from 'react-simple-modal-slideshow';
-
-function ProjectModalImage(props){
-	return(
-    <ModalImage 
-      className={props.size+"Img"}
-      small={require("" + props.imgPath)} 
-      large={require("" + props.imgPath)}
-      hideDownload="true" 
-      hideZoom="true"/>);
-}
+// import ModalImage from 'react-modal-image';
+import ProjectModalImage from './ProjectModalImage'
 
 const project = () => ( 
 	<div className="Project">

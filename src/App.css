@@ -1,6 +1,8 @@
 body {
-  font-family: "Courier Prime";
+  /*font-family: "Courier Prime";*/
   /*font-family: "IBM Plex Mono";*/
+  font-family: "Ubuntu";
+  font-weight: 300;
   /*font-family: "Courier New";*/
   /*max-width: 800px;*/
   width: 90vw;

@@ -20,7 +20,7 @@
     margin-top: 30px; 
 }
 .Project{
-    max-width: 650px;
+    max-width: 700px;
     margin: auto;
     margin-top: 30px; 
     font-size: 18px; 
@@ -32,6 +32,7 @@
 }
 .Project p{
     text-align:left;
+    margin-left: 20px;
 }
 .Box img {
     width: 300px; 
@@ -138,6 +139,10 @@ h{
 }
 .medImg{
     width: 600px; 
+    max-width: 100%; 
+}
+.largeImg{
+    width: 700px; 
     max-width: 100%; 
 }
 

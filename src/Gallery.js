@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom'; 
 import Project from './Project.js';
+import { galleryCategories, projectInfos } from './assets/pages/index'
 
 const thumbnailsPath = "./assets/thumbnails/"
 
@@ -8,22 +9,16 @@ class Gallery extends Component {
   constructor(props) {
     super(props); 
     this.state = {
-      categories: { "code" : ["mii", "create-lab"],
-                    "fun" : ["test"],
-                    "art" : ["mii", "test2"],
-                    "home" : ["mii","test","test2", "create-lab"],
-                    "" : []
-                  },
+      categories: galleryCategories
     };
   }
   render() {
     console.log("gallery",this.state);
+    let boxes = getGalleryBoxes(this);
+    console.log("boxes", boxes);
     return (
         <div className="Gallery">
-          <Box link="mii" filetype=".png"  desc="Mii Simulator" filter={this.state.categories[this.props.current]}/> 
-          <Box link="test" filetype=".jpg"  desc="Test" filter={this.state.categories[this.props.current]}/> 
-          <Box link="test2" filetype=".jpg"  desc="Test 2" filter={this.state.categories[this.props.current]}/> 
-          <GalleryBox scope={this} link="create-lab" filetype=".png" desc="CMU Create Lab" />
+          { boxes }
         </div>           
     );
   }
@@ -34,6 +29,18 @@ function GalleryBox(props) {
     return (
       <Box link={props.link} filetype={props.filetype}  desc={props.desc} filter={that.state.categories[that.props.current]}/> 
     );
+}
+
+function getGalleryBoxes(scope) {
+  let items = [];
+  for (let gb of projectInfos){
+    items.push(<Box 
+      link={gb.link} 
+      filetype={gb.filetype}  
+      desc={gb.desc}
+      filter={scope.state.categories[scope.props.current]}/> );
+  }
+  return items;
 }
 
 class Box extends Component { 

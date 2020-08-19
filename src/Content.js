@@ -4,6 +4,7 @@ import './App.css';
 import Gallery from './Gallery.js';
 import Project from './Project.js';
 import './Content.css';
+import { projectInfos } from './assets/pages/index'
 
 class App extends Component {
   constructor(props) {
@@ -56,20 +57,15 @@ function ButtonLink(props) {
 // Link pages from pages.json
 // key prop of Route is to get rid of an error that insists it has a key idk
 function getPageLinks() {
-  // let pagesJson = require("./assets/pages.json");
-  // console.log(pagesJson);
-  let projectsJson = require("./assets/projects.json");
-  console.log(projectsJson);
   let items = [];
   // gallery pages
   let galleries = ["code", "fun", "art"];
   for (let g of galleries) {
     items.push(<Route key={g} path={'/'+g} component={() => <Gallery current={g}/>} />);
   }
-  // project pages
-  for (let p of projectsJson) {
-    let k = p.key;
-    items.push(<Route key={k} path={'/'+k} component={() => <Project link={k}/>} />);
+  // project pages, from assets/pages/index.js
+  for (let p of projectInfos) {
+    items.push(<Route path={'/'+p.link} component={() => <Project link={p.link}/>} />);
   }
   return items;
 }
