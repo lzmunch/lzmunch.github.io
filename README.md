@@ -5,7 +5,7 @@ Attempt 2 at a website
 Create page
 * Create `src/assets/pages/project-name.js` to render page
 * Create `src/assets/pages/project-name` directory for page assets
+
 Link to website
-* Export module and add entry for projectsJson in `src/assets/index.js`
-* Add an entry to `src/Project.js`
-* Add a new galley box and add project-name to categories in `src/Gallery.js`
+* Export module and add entry for project linking and gallery box creation in `src/assets/index.js`
+* Import module and add a switch case in `src/Project.js`

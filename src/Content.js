@@ -20,6 +20,7 @@ class App extends Component {
         <div className="Content">
         <br></br>
             <div className="Header">
+              <p style={{fontWeight:"bold"}}>WIP migration from <a href="https://zhauren.wixsite.com/home">https://zhauren.wixsite.com/home</a></p>
               <div id="name">LAUREN ZHANG</div>
               <div id="buttons">
                 <ButtonLink text="home" scope={this}></ButtonLink>

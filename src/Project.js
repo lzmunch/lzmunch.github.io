@@ -36,7 +36,7 @@ class Project extends Component {
       default :
         return (
           <div className="Project">
-            this page doesn't exist. yikes! 
+            This page doesn't exist :(
           </div>
         );
     }
