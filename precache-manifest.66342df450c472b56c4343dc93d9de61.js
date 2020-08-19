@@ -1,19 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "b99f5743e5844b6c9eb3f923db14c7a8",
-    "url": "/lzmunch.github.io.dev/static/media/mii_gallery_showing.b99f5743.png"
+    "revision": "aaa1e6e93887dfeb2d0cd6f5acaa3b43",
+    "url": "/lzmunch.github.io.dev/static/media/mii.aaa1e6e9.png"
   },
   {
-    "revision": "63c389b63e564e7be05d",
-    "url": "/lzmunch.github.io.dev/static/css/main.1e45002b.chunk.css"
+    "revision": "4171ebf09335d0bb8bb6",
+    "url": "/lzmunch.github.io.dev/static/css/main.3f2c888d.chunk.css"
   },
   {
-    "revision": "5160ad179ed3887971fe",
-    "url": "/lzmunch.github.io.dev/static/js/1.5160ad17.chunk.js"
+    "revision": "f51ac8a1c5eb5a71d991",
+    "url": "/lzmunch.github.io.dev/static/js/1.f51ac8a1.chunk.js"
   },
   {
     "revision": "38513c7b5bf88159a96e",
     "url": "/lzmunch.github.io.dev/static/js/runtime~main.38513c7b.js"
+  },
+  {
+    "revision": "ba8c0e5fa8c2c951dbb0021ef90026bf",
+    "url": "/lzmunch.github.io.dev/static/media/date_demo.ba8c0e5f.gif"
+  },
+  {
+    "revision": "bbe5b6e36165e41b6879e8df0ef8af58",
+    "url": "/lzmunch.github.io.dev/static/media/sensors_smell_reports.bbe5b6e3.gif"
   },
   {
     "revision": "17bc4f7e847367e72b05de454b3289aa",
@@ -32,12 +40,12 @@ self.__precacheManifest = [
     "url": "/lzmunch.github.io.dev/static/media/many_mii.948b08f3.jpg"
   },
   {
-    "revision": "aaa1e6e93887dfeb2d0cd6f5acaa3b43",
-    "url": "/lzmunch.github.io.dev/static/media/mii.aaa1e6e9.png"
+    "revision": "4171ebf09335d0bb8bb6",
+    "url": "/lzmunch.github.io.dev/static/js/main.4171ebf0.chunk.js"
   },
   {
-    "revision": "63c389b63e564e7be05d",
-    "url": "/lzmunch.github.io.dev/static/js/main.63c389b6.chunk.js"
+    "revision": "b99f5743e5844b6c9eb3f923db14c7a8",
+    "url": "/lzmunch.github.io.dev/static/media/mii_gallery_showing.b99f5743.png"
   },
   {
     "revision": "43c522de838c51f823da91c9128290de",
@@ -57,7 +65,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "e4f7831858aff123e6f8508bea11df8a",
-    "url": "/lzmunch.github.io.dev/static/media/map-voices.e4f78318.PNG"
+    "url": "/lzmunch.github.io.dev/static/media/map-voices.e4f78318.png"
   },
   {
     "revision": "5a97a5403b0780ad4566cf7fd88a13bf",
@@ -68,7 +76,7 @@ self.__precacheManifest = [
     "url": "/lzmunch.github.io.dev/static/media/test2.6c1e3b44.jpg"
   },
   {
-    "revision": "1beca7009e1c56153954dc78d6cd4381",
+    "revision": "cf9011ab5d96203d8cfcc797e9fa4a2d",
     "url": "/lzmunch.github.io.dev/index.html"
   }
 ];
