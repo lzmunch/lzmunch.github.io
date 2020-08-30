@@ -1,10 +1,10 @@
 // export {default as MiiPage} from './mii';
 
 export const galleryCategories = { 
-	"code" : ["mii", "create-lab", "map-voices", "beaglebone"],
+	"code" : ["mii", "create-lab", "map-voices", "imaging-research"],
     "fun" : ["test"],
     "art" : ["mii"],
-    "home" : ["mii", "create-lab", "beaglebone", "map-voices"],
+    "home" : ["mii", "create-lab", "imaging-research", "map-voices"],
     "" : []
 };
 
@@ -12,9 +12,9 @@ export const galleryCategories = {
 // used in Content.js and Gallery.js
 export const projectInfos = [
 	{
-		link: "beaglebone",
+		link: "imaging-research",
 		filetype: ".jpg",
-		desc: "Accessible Imaging Research"
+		desc: "Accessible Imaging Platform"
 	},
 	{
 		link: "mii",

@@ -6,6 +6,7 @@ import TestPage from './assets/pages/test';
 import MiiPage from './assets/pages/mii';
 import AboutPage from './assets/pages/about';
 import CreateLabPage from './assets/pages/create-lab';
+import ImagingResearchPage from './assets/pages/imaging-research';
 
 class Project extends Component {
   constructor(props) {
@@ -22,6 +23,8 @@ class Project extends Component {
         return ( <MiiPage/>);
       case "create-lab":
         return ( <CreateLabPage/>);
+      case "imaging-research":
+        return ( <ImagingResearchPage/>);
       case "home": 
         return (
           <div className="Project">

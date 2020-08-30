@@ -7,5 +7,5 @@ Create page
 * Create `src/assets/pages/project-name` directory for page assets
 
 Link to website
-* Export module and add entry for project linking and gallery box creation in `src/assets/index.js`
-* Import module and add a switch case in `src/Project.js`
+* Edit `src/assets/index.js` to export module and add entry for project linking and gallery box creation
+* Edit `src/Project.js` to import module and add a switch case
