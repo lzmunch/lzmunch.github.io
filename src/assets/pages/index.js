@@ -1,10 +1,10 @@
 // export {default as MiiPage} from './mii';
 
 export const galleryCategories = { 
-	"code" : ["mii", "create-lab", "imaging-research", "voices-of-belfast"],
-    "fun" : ["test"],
-    "art" : ["mii", "voices-of-belfast"],
-    "home" : ["mii", "create-lab", "imaging-research", "voices-of-belfast"],
+	"code" : ["mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "white"],
+    "fun" : ["test", "white"],
+    "art" : ["mii", "voices-of-belfast", "white"],
+    "home" : ["mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "white"],
     "" : []
 };
 
@@ -21,15 +21,20 @@ export const projectInfos = [
 		filetype: ".png",
 		desc: "Mii Simulator"
 	},
-	{
-		link: "map-voices",
-		filetype: ".png",
-		desc: "Map Voices"
+    {
+		link: "virtual-cmu-fence",
+		filetype: ".jpg",
+		desc: "Virtual CMU Fence"
 	},
 	{
 		link: "create-lab",
 		filetype: ".png",
 		desc: "CMU Create Lab"
+	},
+	{
+		link: "map-voices",
+		filetype: ".png",
+		desc: "Map Voices"
 	},
 	{
 		link: "voices-of-belfast",

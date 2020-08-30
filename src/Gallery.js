@@ -23,21 +23,23 @@ class Gallery extends Component {
   }
 }
 
-function GalleryBox(props) {
-    let that = props.scope;
-    return (
-      <Box link={props.link} filetype={props.filetype}  desc={props.desc} filter={that.state.categories[that.props.current]}/> 
-    );
-}
-
 function getGalleryBoxes(scope) {
   let items = [];
+  let itemCount = 0;
   for (let gb of projectInfos){
     items.push(<Box 
       link={gb.link} 
       filetype={gb.filetype}  
       desc={gb.desc}
       filter={scope.state.categories[scope.props.current]}/> );
+    itemCount++;
+  }
+  if (itemCount % 2 != 0) {
+    items.push(
+      <Link to={"/"+scope.props.current} className="Box">
+        <img src={require("" + thumbnailsPath + "white.jpg")} alt={"placeholder thumbnail"}/> 
+      </Link>
+    );
   }
   return items;
 }

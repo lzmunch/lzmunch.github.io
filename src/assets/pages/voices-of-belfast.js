@@ -15,12 +15,12 @@ const project = () => (
 	    <p>For Carnegie Mellon University's "Art, Technology, and Conflict in Northern Ireland" class in Spring 2018, I was interested in creating a map with a more game-like interaction for more immersion. It turned out to be a very good way to express the way I felt when first confronting the plethora of opinions and perspectives explored in the class.</p>
 	    <p style={{textAlign:"center"}}>
 	    	<a href="https://lzmunch.itch.io/voices-of-belfast" target="_blank" rel="noopener noreferrer">
-	    		Game download
+	    		[Game download]
 	    	</a>
 	    </p>
 	    <p style={{textAlign:"center"}}>
 	    	<a href="https://github.com/lzhang17/voices_of_belfast" target="_blank" rel="noopener noreferrer">
-	    		Github code
+	    		[Github code]
 	    	</a>
 	    </p>
 	    <br/>

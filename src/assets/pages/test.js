@@ -12,7 +12,7 @@ const project = () => (
 	    <p> A very very informative line of text.</p>
 
 	    <p style={{textAlign:"center"}}>
-	    	<a href="#">
+	    	<a href="#" target="_blank" rel="noopener noreferrer">
 	    		A Fun Link
 	    	</a>
 	    </p>

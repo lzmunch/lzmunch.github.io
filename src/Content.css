@@ -6,7 +6,7 @@
     /*padding-left: -17.5vw;*/
     /*left: -17.5vw;*/
     background: white; 
-    text-align: left; 
+    text-align: center; 
     /*font-family: "courier new";*/
 
 /*    background-color: black;
@@ -18,21 +18,60 @@
     padding-left:20px;
     padding-right:20px;*/
 }
+#name{
+    font-size: 50px; 
+    padding: 10px; 
+    padding-top: 20px; 
+}
+#buttons{
+    width: 90vw; 
+    text-align: center; 
+    left: 0; 
+    right: 0; 
+    display: inline-block; 
+}
+
+.button{
+    font-size: 25px; 
+    /*background: black; */
+    border: none; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-bottom: 15px; 
+    display: inline-block; 
+    /*text-transform: uppercase;*/
+    text-decoration: none; 
+    /*color:  orange;*/
+    font-weight: normal; 
+
+}
+.button:hover{
+    cursor:pointer;
+    /*text-decoration: underline;*/
+}
+#line {
+    text-align: center;
+    display: inline-block;
+    width: 75%;
+    height: 2px;
+    background: black;
+}
+
 .Content {
     /*width: 65vw; */
     margin: auto;
     margin-bottom: 10vh; 
     margin-top: -18px; 
-    
 }
 .Gallery{
     margin-top: 30px; 
+    max-width: 100%;
 }
 .Project{
     max-width: 800px;
     margin: auto;
     margin-top: 30px; 
-    font-size: 18px; 
+    font-size: 16px; 
     vertical-align: top; 
     text-align: center;
     /*text-align: left;*/
@@ -41,7 +80,8 @@
 }
 .Project p{
     text-align:left;
-    margin-left: 15px;
+    margin-left: 55px;
+    max-width: 700px;
 }
 .Project h{
     /*background-color: black;
@@ -96,6 +136,11 @@
     display: none; 
 }
 
+#homepage{
+    width: 100%;
+    text-align: center;
+}
+
 .Project img {
     margin: 10px; 
     text-align: center;
@@ -108,38 +153,6 @@ h{
     font-size: 35px; 
     display: block;
     margin: 10px; 
-}
-
-#name{
-    font-size: 50px; 
-    padding: 10px; 
-    padding-top: 20px; 
-}
-#buttons{
-    width: 90vw; 
-    text-align: left; 
-    left: 0; 
-    right: 0; 
-    display: inline-block; 
-}
-
-.button{
-    font-size: 30px; 
-    /*background: black; */
-    border: none; 
-    margin-left: 15px; 
-    margin-right: 15px; 
-    margin-bottom: 15px; 
-    display: inline-block; 
-    /*text-transform: uppercase;*/
-    text-decoration: none; 
-    /*color:  orange;*/
-    font-weight: normal; 
-
-}
-.button:hover{
-    cursor:pointer;
-    /*text-decoration: underline;*/
 }
 
 .active {

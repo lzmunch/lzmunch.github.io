@@ -29,14 +29,14 @@ class App extends Component {
                 <ButtonLink text="fun" scope={this}></ButtonLink>
                 <ButtonLink text="about" scope={this}></ButtonLink>
               </div>
-              <div style={{width:"100%", height:"2px", background:"black"}}></div>
+              <div id="line"></div>
               <br/>
             </div>
             <Switch>
                 {pageLinks}
-                <Route path={'/homepage'} component={() => <Project link="home"/>} />
+                <Route path={'/'} component={() => <Project link="home"/>} />
                 <Route path={'/about'} component={() => <Project link="about"/>} />
-                <Route path={'/'} component={() => <Gallery current="home"/>} />
+                <Route path={'/homepage'} component={() => <Gallery current="home"/>} />
             </Switch>
         </div>
     );

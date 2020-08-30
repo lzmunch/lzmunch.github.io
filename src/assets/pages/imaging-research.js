@@ -14,7 +14,7 @@ const project = () => (
 
 	    <p style={{textAlign:"center"}}>
 	    	<a href="https://lzmunch.github.io/beaglebone-imaging/" target="_blank" rel="noopener noreferrer">
-	    		Project Page 
+	    		[Project Page] 
 	    	</a>
 	    </p>
 	</div>
