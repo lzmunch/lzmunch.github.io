@@ -5,14 +5,22 @@ class ProjectModalImage extends Component {
     constructor(props) {
     	super(props);
 	}
+    componentDidMount() {
+        // remove loading text
+        var element = document.getElementById("loading-text");
+        element.parentNode.removeChild(element);      
+    }
     render() { 
         return (
-    		<ModalImage 
-                className={this.props.size+"Img"}
-                small={require("" + this.props.imgPath)} 
-                large={require("" + this.props.imgPath)}
-                hideDownload="true" 
-                hideZoom="true"/>
+            <div>
+                <p id="loading-text">loading...</p>
+        		<ModalImage 
+                    className={this.props.size+"Img"}
+                    small={require("" + this.props.imgPath)} 
+                    large={require("" + this.props.imgPath)}
+                    hideDownload="true" 
+                    hideZoom="true"/>
+            </div>
         );
     }
 }
