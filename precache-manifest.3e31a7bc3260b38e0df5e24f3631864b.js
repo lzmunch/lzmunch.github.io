@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/mii.aaa1e6e9.png"
   },
   {
-    "revision": "db23d50b9dc4ca44558e",
-    "url": "/static/css/main.62f71b25.chunk.css"
+    "revision": "6f99e4a55697e4583ebd",
+    "url": "/static/css/main.42c87f30.chunk.css"
   },
   {
-    "revision": "3aa5ba606b3aaa278329",
-    "url": "/static/js/1.3aa5ba60.chunk.js"
+    "revision": "8a451c4528814d72c55f",
+    "url": "/static/js/1.8a451c45.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -22,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "bbe5b6e36165e41b6879e8df0ef8af58",
     "url": "/static/media/sensors_smell_reports.bbe5b6e3.gif"
+  },
+  {
+    "revision": "7dac207cf8d9a32794506e36936980c4",
+    "url": "/static/media/beaglebone.7dac207c.jpg"
   },
   {
     "revision": "17bc4f7e847367e72b05de454b3289aa",
@@ -40,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/many_mii.948b08f3.jpg"
   },
   {
-    "revision": "db23d50b9dc4ca44558e",
-    "url": "/static/js/main.db23d50b.chunk.js"
+    "revision": "6f99e4a55697e4583ebd",
+    "url": "/static/js/main.6f99e4a5.chunk.js"
   },
   {
     "revision": "b99f5743e5844b6c9eb3f923db14c7a8",
@@ -56,12 +60,16 @@ self.__precacheManifest = [
     "url": "/static/media/resume_08-27-19.d8d294db.pdf"
   },
   {
-    "revision": "7dac207cf8d9a32794506e36936980c4",
-    "url": "/static/media/beaglebone.7dac207c.jpg"
+    "revision": "4210323d4325b0ffe7b303669c32806e",
+    "url": "/static/media/resume_08-29-2020.4210323d.pdf"
   },
   {
     "revision": "0cba3cd9334c8d1da3c1f8fb2cc35c3d",
     "url": "/static/media/create-lab.0cba3cd9.png"
+  },
+  {
+    "revision": "7dac207cf8d9a32794506e36936980c4",
+    "url": "/static/media/imaging-research.7dac207c.jpg"
   },
   {
     "revision": "e4f7831858aff123e6f8508bea11df8a",
@@ -76,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/test2.6c1e3b44.jpg"
   },
   {
-    "revision": "3bb0838545b831bbb8a98f4875456501",
+    "revision": "ddd9957c8e4a6de9a6d58cd363150898",
     "url": "/index.html"
   }
 ];
