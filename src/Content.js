@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect} from 'react';
 import { Switch, Route, Link} from 'react-router-dom'; 
 import './App.css';
 import Gallery from './Gallery.js';
@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       current: "home"
     };
-  } 
+  }
   render() {
     let pageLinks = getPageLinks();
     let decor = {l:"<", r:">"};
@@ -20,7 +20,7 @@ class App extends Component {
         <div className="Content">
         <br></br>
             <div className="Header">
-              <p style={{fontWeight:"bold"}}>WIP migration from <a href="https://zhauren.wixsite.com/home">https://zhauren.wixsite.com/home</a></p>
+              <p style={{fontWeight:"normal"}}>WIP migration from <a href="https://zhauren.wixsite.com/home">https://zhauren.wixsite.com/home</a></p>
               <div id="name">
                 <img width="80px" src={require("./assets/logo.svg")}/>
                 <br/>
@@ -69,7 +69,11 @@ function getPageLinks() {
   // gallery pages
   let galleries = ["code", "fun", "art"];
   for (let g of galleries) {
-    items.push(<Route key={g} path={'/'+g} component={() => <Gallery current={g}/>} />);
+    items.push(<Route key={g} path={'/'+g} component={() => 
+      <div style={{maxWidth:"75%",marginLeft:"13%"}}>
+        <Gallery current={g}/>
+      </div>
+    } />);
   }
   // project pages, from assets/pages/index.js
   for (let p of projectInfos) {

@@ -18,6 +18,11 @@ class Project extends Component {
   constructor(props) {
     super(props); 
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+    // window.scrollTo({top: 0, behavior: 'smooth'});
+    console.log(';jklsfkjsadfkjldsaf')
+  } 
   render() {
     console.log("project", this.props.link);
     switch(this.props.link) {
@@ -41,10 +46,10 @@ class Project extends Component {
         return (
           <div id="homepage">
             <div className="Project">
-              <h2>Software Developer + Creative</h2>
+              <h3>Software Developer + Creative</h3>
               <h3><a href={resumeLink} target="_blank" rel="noopener noreferrer">[Resume]</a></h3>
             </div>
-            <div style={{maxWidth:"60%",marginLeft:"20%"}}>
+            <div style={{maxWidth:"75%",marginLeft:"13%"}}>
               <Gallery current="home"/>
            </div>
           </div>
