@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom'; 
-import Project from './Project.js';
 import { galleryCategories, projectInfos } from './assets/pages/index'
 
 const thumbnailsPath = "./assets/thumbnails/"
@@ -50,7 +49,7 @@ class Box extends Component {
         return (
             <Link to={"/" + this.props.link} className="Box">
                 <div className="Overlay"> {this.props.desc} </div>
-                <img src={require("" + thumbnailsPath + this.props.link + this.props.filetype)}/> 
+                <img src={require("" + thumbnailsPath + this.props.link + this.props.filetype)} alt={"thumbnail for " + this.props.desc}/> 
             </Link>
         ); 
       }

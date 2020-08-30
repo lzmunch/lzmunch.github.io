@@ -1,10 +1,10 @@
 // export {default as MiiPage} from './mii';
 
 export const galleryCategories = { 
-	"code" : ["mii", "create-lab", "map-voices", "imaging-research"],
+	"code" : ["mii", "create-lab", "imaging-research", "voices-of-belfast"],
     "fun" : ["test"],
-    "art" : ["mii"],
-    "home" : ["mii", "create-lab", "imaging-research", "map-voices"],
+    "art" : ["mii", "voices-of-belfast"],
+    "home" : ["mii", "create-lab", "imaging-research", "voices-of-belfast"],
     "" : []
 };
 
@@ -30,6 +30,11 @@ export const projectInfos = [
 		link: "create-lab",
 		filetype: ".png",
 		desc: "CMU Create Lab"
+	},
+	{
+		link: "voices-of-belfast",
+		filetype: ".jpg",
+		desc: "Voices of Belfast"
 	},
 	{
 		link: "test",

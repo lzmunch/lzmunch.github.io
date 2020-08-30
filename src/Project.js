@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
-import ReactEmbedGist from 'react-embed-gist';
+// import ReactEmbedGist from 'react-embed-gist';
+import Gallery from './Gallery';
 
 import TestPage from './assets/pages/test';
 import MiiPage from './assets/pages/mii';
 import AboutPage from './assets/pages/about';
 import CreateLabPage from './assets/pages/create-lab';
 import ImagingResearchPage from './assets/pages/imaging-research';
+import VoicesOfBelfastPage from './assets/pages/voices-of-belfast';
+
+
+const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
 
 class Project extends Component {
   constructor(props) {
@@ -25,15 +30,16 @@ class Project extends Component {
         return ( <CreateLabPage/>);
       case "imaging-research":
         return ( <ImagingResearchPage/>);
+      case "voices-of-belfast":
+        return ( <VoicesOfBelfastPage/>);
       case "home": 
         return (
-          <div className="Project">
-            <div id="frontpage">
-              <p> Software Developer + Creative </p>
-              <ProjectModalImage imgPath="./assets/thumbnails/mii.png" />
-              <ProjectModalImage imgPath="./assets/thumbnails/test.jpg" />
-              <ProjectModalImage imgPath="./assets/thumbnails/test2.jpg" />
+          <div>
+            <div className="Project">
+              <h2>Software Developer + Creative</h2>
+              <h3><a href={resumeLink} target="_blank" rel="noopener noreferrer">[Resume]</a></h3>
             </div>
+            <Gallery current="home"/>
           </div>
         );
       default :
