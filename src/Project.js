@@ -10,6 +10,7 @@ import CreateLabPage from './assets/pages/create-lab';
 import ImagingResearchPage from './assets/pages/imaging-research';
 import VoicesOfBelfastPage from './assets/pages/voices-of-belfast';
 import VirtualCmuFencePage from './assets/pages/virtual-cmu-fence';
+import ShadowAnimPage from './assets/pages/3d-shadow-anim';
 
 const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
 
@@ -34,6 +35,8 @@ class Project extends Component {
         return ( <VoicesOfBelfastPage/>);
       case "virtual-cmu-fence":
         return ( <VirtualCmuFencePage/>);
+      case "3d-shadow-anim": 
+        return ( <ShadowAnimPage/>);
       case "home": 
         return (
           <div id="homepage">

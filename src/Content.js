@@ -21,7 +21,11 @@ class App extends Component {
         <br></br>
             <div className="Header">
               <p style={{fontWeight:"bold"}}>WIP migration from <a href="https://zhauren.wixsite.com/home">https://zhauren.wixsite.com/home</a></p>
-              <div id="name">LAUREN ZHANG</div>
+              <div id="name">
+                <img width="80px" src={require("./assets/logo.svg")}/>
+                <br/>
+                LAUREN ZHANG
+              </div>
               <div id="buttons">
                 <ButtonLink text="home" scope={this}></ButtonLink>
                 <ButtonLink text="code" scope={this}></ButtonLink>
@@ -34,8 +38,8 @@ class App extends Component {
             </div>
             <Switch>
                 {pageLinks}
-                <Route path={'/'} component={() => <Project link="home"/>} />
                 <Route path={'/about'} component={() => <Project link="about"/>} />
+                <Route path={'/'} component={() => <Project link="home"/>} />
                 <Route path={'/homepage'} component={() => <Gallery current="home"/>} />
             </Switch>
         </div>

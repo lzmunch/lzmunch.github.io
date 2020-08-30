@@ -1,10 +1,10 @@
 // export {default as MiiPage} from './mii';
 
 export const galleryCategories = { 
-	"code" : ["mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "white"],
-    "fun" : ["test", "white"],
-    "art" : ["mii", "voices-of-belfast", "white"],
-    "home" : ["mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "white"],
+	"code" : ["white", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
+    "fun" : ["white", "test"],
+    "art" : ["white", "mii", "voices-of-belfast", "3d-shadow-anim"],
+    "home" : ["white", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
     "" : []
 };
 
@@ -30,6 +30,11 @@ export const projectInfos = [
 		link: "create-lab",
 		filetype: ".png",
 		desc: "CMU Create Lab"
+	},
+	{
+		link: "3d-shadow-anim",
+		filetype: ".jpg",
+		desc: "3D Shadow Puppets"
 	},
 	{
 		link: "map-voices",
