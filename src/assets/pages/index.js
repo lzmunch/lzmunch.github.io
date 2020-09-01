@@ -2,7 +2,7 @@
 
 export const galleryCategories = { 
 	"code" : ["white", "ems", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
-    "fun" : ["white", "test"],
+    "fun" : ["white", "test", "sneeple", "traditional", "digital"],
     "art" : ["white", "grasshopper", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"],
     "home" : ["white", "grasshopper", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim", "ems"],
     "" : []
@@ -56,6 +56,24 @@ export const projectInfos = [
 		link: "voices-of-belfast",
 		filetype: ".jpg",
 		desc: "Voices of Belfast"
+	},
+	{
+		link: "sneeple",
+		filetype: ".png",
+		desc: "The Sneeple Project",
+		redirect: "https://lzmunch.github.io/the-sneeple-project/"
+	},
+	{
+		link: "traditional",
+		filetype: ".png",
+		desc: "Traditional Art",
+		redirect: "https://zhauren.wixsite.com/home/traditional-art"
+	},
+	{
+		link: "digital",
+		filetype: ".png",
+		desc: "Digital Illustration",
+		redirect: "https://zhauren.wixsite.com/home/digital-illustration"
 	},
 	{
 		link: "test",
