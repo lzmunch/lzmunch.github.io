@@ -52,7 +52,6 @@ class Project extends Component {
         return (
           <div id="homepage">
             <div className="Project">
-              <h3 style={{fontWeight:"normal"}}>WIP migration from <a href="https://zhauren.wixsite.com/home">https://zhauren.wixsite.com/home</a></h3>
               <h3>Software Developer + Creative</h3>
               <h3><a href={resumeLink} target="_blank" rel="noopener noreferrer">[Resume]</a></h3>
             </div>
