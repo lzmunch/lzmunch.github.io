@@ -45,14 +45,4 @@ const project = () => (
 	    <ScrollUpButton/>
 	</div>
 );
-/* side by side image display
-	    <div style={{display:"inline-block"}}>
-		    <div style={{float:"left"}}>
-			    <ProjectModalImage size="small" imgPath="./ems/bert1.gif"/>
-		    </div>
-		    <div style={{float:"right"}}>
-			    <ProjectModalImage size="small" imgPath="./ems/bert2.gif"/>
-		    </div>
-	    </div>
-*/
 export default project;

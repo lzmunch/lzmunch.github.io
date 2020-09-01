@@ -3,8 +3,8 @@
 export const galleryCategories = { 
 	"code" : ["white", "ems", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
     "fun" : ["white", "test"],
-    "art" : ["white", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"],
-    "home" : ["white", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim", "ems"],
+    "art" : ["white", "grasshopper", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"],
+    "home" : ["white", "grasshopper", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim", "ems"],
     "" : []
 };
 
@@ -31,6 +31,11 @@ export const projectInfos = [
 		link: "create-lab",
 		filetype: ".png",
 		desc: "CMU Create Lab"
+	},
+	{
+		link: "grasshopper",
+		filetype: ".png",
+		desc: "Grasshopper Experiments"
 	},
 	{
 		link: "3d-shadow-anim",
