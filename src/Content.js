@@ -48,8 +48,6 @@ class App extends Component {
 
 function ButtonLink(props) {
   let that = props.scope;
-  console.log("buttonlink", that.state);
-  // {"_" + props.text + "_"}
   return (
     <Link 
       className={"button " + (that.state.current === props.text ? "active" : "")} 

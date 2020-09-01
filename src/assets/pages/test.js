@@ -15,16 +15,16 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add t
 
 const project = () => ( 
 	<div className="Project">
-	    <h>Test Project</h>
-	    <h3 style={{fontWeight:"normal"}}>sneep sneep</h3>
+	    <h>Ode to the Fallen Mii</h>
+	    <h3 style={{fontWeight:"normal"}}>*discordant Mii Channel remix plays*</h3>
 
 	    <ProjectModalImage size="large" imgPath="./mii/dead_mii.jpg"/>
 
-	    <p> A very very informative line of text.</p>
+	    <p>He wandered too far off screen...may we learn from his mistakes and lest his eternal suffering be in vain.</p>
 
 	    <p style={{textAlign:"center"}}>
-	    	<a href="#" target="_blank" rel="noopener noreferrer">
-	    		A Fun Link
+	    	<a href="#/mii" target="_blank" rel="noopener noreferrer">
+	    		Back to the land of the living
 	    	</a>
 	    </p>
 

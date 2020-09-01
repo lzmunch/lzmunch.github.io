@@ -60,6 +60,6 @@ export const projectInfos = [
 	{
 		link: "test",
 		filetype: ".jpg",
-		desc: "Test"
+		desc: "Dead Mii"
 	}
 ];

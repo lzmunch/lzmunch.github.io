@@ -83,13 +83,13 @@
     max-width: 700px;
 }
 .Project h{
-    /*background-color: black;
-    color: white;
-    display: inline-block;*/
-    /*padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;*/
+    font-weight: normal;
+}
+.Project h2{
+    font-weight: normal;
+}
+.Project h3{
+    font-weight: normal;
 }
 .Box img {
     width: 300px; 
@@ -144,18 +144,11 @@
     margin: 10px; 
     text-align: center;
 }
-.Project h {
-    text-align: center;
-}
 
 h{
     font-size: 35px; 
     display: block;
     margin: 10px; 
-}
-
-.active {
-    /* text-decoration: underline;  */
 }
 
 .smallImg{
@@ -192,6 +185,10 @@ a:hover{
     /*color: #00c7ad;*/
     color: #80e0c0;
     font-style: oblique;
+}
+.active{
+    font-weight: bold;
+    color: #80e0c0 !important;
 }
 
 .col{
