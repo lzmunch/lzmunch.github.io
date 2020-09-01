@@ -6,7 +6,7 @@ import ProjectModalImage from './ProjectModalImage'
 const project = () => ( 
 	<div className="Project">
 	    <h>Air Quality Data Viz</h>
-	    <h2 style={{fontWeight:"normal"}}>(CREATE Lab)</h2>
+	    <h3>CREATE Lab (2019)</h3>
 
 	    <ProjectModalImage size="large" imgPath="./create-lab/sensors_smell_reports.gif"/>
 

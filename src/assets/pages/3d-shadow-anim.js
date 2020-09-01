@@ -5,7 +5,7 @@ import ProjectModalImage from './ProjectModalImage';
 const project = () => ( 
 	<div className="Project">
 	    <h>3D Shadow Puppets</h>
-	    <h3 style={{fontWeight:"normal"}}>Experimental Animation</h3>
+	    <h3 style={{fontWeight:"normal"}}>Experimental Animation (2019)</h3>
 
 	    <ProjectModalImage size="large" imgPath="./3d-shadow-anim/final_video_gif.gif"/>
 

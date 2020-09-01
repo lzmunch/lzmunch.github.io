@@ -6,6 +6,7 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add t
 const project = () => ( 
 	<div className="Project">
 	    <h>Interactivity and Computation</h>
+	    <h3>(2018)</h3>
 	    <p>Some highlights of my projects from Golan Levin's class "Interactivity and Computation" taught in Fall 2018. More projects and documentation: <a href="http://cmuems.com/2018/60212f/author/nerual/" target="_blank">here</a>.</p>
 	    <h2 style={{fontWeight:"normal"}}>
 	    	<a href="https://www.openprocessing.org/sketch/593533" target="_blank" rel="noopener noreferrer">

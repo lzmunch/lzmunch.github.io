@@ -7,7 +7,7 @@ const imgDir = "./virtual-cmu-fence/";
 const project = () => ( 
 	<div className="Project">
 	    <h>Virtual CMU Fence</h>
-	    <h3 style={{fontWeight:"normal"}}>Automapping 2D textures to a 3D model</h3>
+	    <h3 style={{fontWeight:"normal"}}>Automapping 2D textures to a 3D model (2019)</h3>
 	    
 	    <ProjectModalImage size="large" imgPath={imgDir + "wide_fence.jpg"}/>
 	    <ProjectModalImage size="large" imgPath={imgDir + "wide_model.png"}/>

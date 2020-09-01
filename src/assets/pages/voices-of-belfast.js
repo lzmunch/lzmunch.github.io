@@ -6,7 +6,7 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add t
 const project = () => ( 
 	<div className="Project">
 	    <h>Voices of Belfast</h>
-	    <h3 style={{fontWeight:"normal"}}>Geospatial Sound Map</h3>
+	    <h3 style={{fontWeight:"normal"}}>Geospatial Sound Map (2018)</h3>
 
 	    <iframe src="https://player.vimeo.com/video/452956970" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	    <p style={{textAlign:"center"}}>

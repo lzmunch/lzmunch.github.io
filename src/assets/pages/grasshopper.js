@@ -5,7 +5,8 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add t
 
 const project = () => ( 
 	<div className="Project">
-	    <h>3D Printing Experiments with Grasshopper</h>
+	    <h>Waffle Hands</h>
+	    <h3>3D printing experiments with Grasshopper (2019)</h3>
 
 	    <ProjectModalImage size="med" imgPath="./grasshopper/filled_lattice_y.gif"/>
 	    <ProjectModalImage size="med" imgPath="./grasshopper/printed.png"/>

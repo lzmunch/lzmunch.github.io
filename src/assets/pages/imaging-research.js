@@ -8,7 +8,7 @@ import { Route } from "react-router-dom";
 const project = () => ( 
 	<div className="Project">
 	    <h>Accessible Digital Imaging Platform</h>
-	    <h3 style={{fontWeight:"normal"}}>Research project at Carnegie Mellon University</h3>
+	    <h3 style={{fontWeight:"normal"}}>Research project at Carnegie Mellon University (2019)</h3>
 
 	    <ProjectModalImage size="large" imgPath="./imaging-research/beaglebone.jpg"/>
 

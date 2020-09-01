@@ -16,7 +16,7 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add t
 const project = () => ( 
 	<div className="Project">
 	    <h>Ode to the Fallen Mii</h>
-	    <h3 style={{fontWeight:"normal"}}>*discordant Mii Channel remix plays*</h3>
+	    <h3>*discordant Mii Channel remix plays* (2020)</h3>
 
 	    <ProjectModalImage size="large" imgPath="./mii/dead_mii.jpg"/>
 

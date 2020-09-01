@@ -6,6 +6,7 @@ import ProjectModalImage from './ProjectModalImage'
 const project = () => ( 
 	<div className="Project">
 	    <h>Mii Simulator</h>
+	    <h3>(2019)</h3>
 
 	     <ProjectModalImage size="med" imgPath="./mii/mii.png"/>
 
