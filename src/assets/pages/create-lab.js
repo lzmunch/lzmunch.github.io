@@ -1,6 +1,6 @@
 import React from 'react';
 import InstagramEmbed from 'react-instagram-embed';
-// import ModalImage from 'react-modal-image';
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ProjectModalImage from './ProjectModalImage'
 
 const project = () => ( 
@@ -22,6 +22,8 @@ const project = () => (
 	    <p><b>Technologies Used</b>: Javascript, JQuery, CSS, HTML, Python Flask, WebGL, Ruby</p>
 
 	    <p style={{textAlign:"center"}}><a href="https://zhauren.wixsite.com/home/post/internship-with-cmu-create-lab"> More documentation </a></p>
+	    
+	    <ScrollUpButton/>
 	</div>
 );
 

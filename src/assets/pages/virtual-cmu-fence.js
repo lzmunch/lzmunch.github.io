@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectModalImage from './ProjectModalImage';
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add this line Here
 // <a href="url" target="_blank" rel="noopener noreferrer">
 
 const imgDir = "./virtual-cmu-fence/";
@@ -33,6 +34,8 @@ const project = () => (
 	    		[Process documentation]
 	    	</a>
 	    </p>	
+	    
+	    <ScrollUpButton/>
 	</div>
 );
 

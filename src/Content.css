@@ -7,7 +7,7 @@
     /*left: -17.5vw;*/
     background: white; 
     text-align: center; 
-    /*font-family: "courier new";*/
+    font-family: "courier prime";
 
 /*    background-color: black;
     color: white;
@@ -79,7 +79,7 @@
 }
 .Project p{
     text-align:left;
-    margin-left: 55px;
+    margin: auto;
     max-width: 700px;
 }
 .Project h{
@@ -165,8 +165,6 @@ h{
 .smallishImg{
     width: 400px;
     max-width: 100%;
-    text-align: center !important;
-    margin: auto !important;
 }
 .medImg{
     width: 600px; 

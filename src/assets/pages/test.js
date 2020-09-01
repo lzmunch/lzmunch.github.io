@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectModalImage from './ProjectModalImage';
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add this line Here
 // <a href="url" target="_blank" rel="noopener noreferrer">
 
 const project = () => ( 
@@ -16,6 +17,8 @@ const project = () => (
 	    		A Fun Link
 	    	</a>
 	    </p>
+
+	    <ScrollUpButton/>
 	</div>
 );
 

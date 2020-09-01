@@ -11,6 +11,7 @@ import ImagingResearchPage from './assets/pages/imaging-research';
 import VoicesOfBelfastPage from './assets/pages/voices-of-belfast';
 import VirtualCmuFencePage from './assets/pages/virtual-cmu-fence';
 import ShadowAnimPage from './assets/pages/3d-shadow-anim';
+import EmsPage from './assets/pages/ems';
 
 const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
 
@@ -30,12 +31,20 @@ class Project extends Component {
         return (<AboutPage />);
       case "test": 
         return ( <TestPage/>);
+      case "ems":
+        return ( <EmsPage/>);
       case "mii":
         return ( <MiiPage/>);
       case "create-lab":
         return ( <CreateLabPage/>);
       case "imaging-research":
         return ( <ImagingResearchPage/>);
+        // return (
+        //   <Route path='/imaging-research' component={() => { 
+        //     window.location.href = 'https://google.com'; 
+        //     return null;
+        //     }}/>
+        // );
       case "voices-of-belfast":
         return ( <VoicesOfBelfastPage/>);
       case "virtual-cmu-fence":

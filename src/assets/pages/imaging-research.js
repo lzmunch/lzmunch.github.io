@@ -1,6 +1,9 @@
 import React from 'react';
 import ProjectModalImage from './ProjectModalImage';
+import { Route } from "react-router-dom";
 // <a href="url" target="_blank" rel="noopener noreferrer">
+
+// ignore this page, link redirects directly to project page
 
 const project = () => ( 
 	<div className="Project">

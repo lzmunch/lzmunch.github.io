@@ -25,21 +25,24 @@ class Gallery extends Component {
 
 function getGalleryBoxes(scope) {
   let items = [];
-  let itemCount = 0;
   for (let gb of projectInfos){
-    items.push(<Box 
-      link={gb.link} 
-      filetype={gb.filetype}  
-      desc={gb.desc}
-      filter={scope.state.categories[scope.props.current]}/> );
-    itemCount++;
-  }
-  if (itemCount % 2 != 0) {
-    items.push(
-      <Link to={"/"+scope.props.current} className="Box">
-        <img src={require("" + thumbnailsPath + "white.jpg")} alt={"placeholder thumbnail"}/> 
-      </Link>
-    );
+    let filter = scope.state.categories[scope.props.current];
+    // gallery box redirects to external link
+    if (gb.redirect && filter.includes(gb.link)){
+      items.push(
+        <a href={gb.redirect} target="_blank" className="Box">
+          <div className="Overlay"> {gb.desc} </div>
+          <img src={require("" + thumbnailsPath + gb.link + gb.filetype)} alt={"thumbnail for " + gb.desc}/> 
+        </a>
+      );
+    // gallery box goes to project page
+    } else {
+      items.push(<Box 
+        link={gb.link} 
+        filetype={gb.filetype}  
+        desc={gb.desc}
+        filter={filter}/> );
+    }
   }
   return items;
 }

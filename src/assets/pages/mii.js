@@ -1,6 +1,6 @@
 import React from 'react';
 import InstagramEmbed from 'react-instagram-embed';
-// import ModalImage from 'react-modal-image';
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ProjectModalImage from './ProjectModalImage'
 
 const project = () => ( 
@@ -30,6 +30,8 @@ const project = () => (
 	    <p style={{textAlign:"center"}}>Dev views</p>
 	    <ProjectModalImage size="smallish" imgPath="./mii/dev_view.jpg"/>
 	    <ProjectModalImage size="smallish" imgPath="./mii/many_mii.jpg"/>
+	    
+	    <ScrollUpButton/>
 	</div>
 );
 

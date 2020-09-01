@@ -1,10 +1,10 @@
 // export {default as MiiPage} from './mii';
 
 export const galleryCategories = { 
-	"code" : ["white", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
+	"code" : ["white", "ems", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
     "fun" : ["white", "test"],
-    "art" : ["white", "mii", "voices-of-belfast", "3d-shadow-anim"],
-    "home" : ["white", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
+    "art" : ["white", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"],
+    "home" : ["white", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim", "ems"],
     "" : []
 };
 
@@ -14,7 +14,8 @@ export const projectInfos = [
 	{
 		link: "imaging-research",
 		filetype: ".jpg",
-		desc: "Accessible Imaging Platform"
+		desc: "Accessible Imaging Platform",
+		redirect: "https://lzmunch.github.io/beaglebone-imaging/"
 	},
 	{
 		link: "mii",
@@ -35,6 +36,11 @@ export const projectInfos = [
 		link: "3d-shadow-anim",
 		filetype: ".jpg",
 		desc: "3D Shadow Puppets"
+	},
+	{
+		link: "ems",
+		filetype: ".png",
+		desc: "Interactivity and Computation"
 	},
 	{
 		link: "map-voices",
