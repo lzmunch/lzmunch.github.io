@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "948b08f3efb4123cb81b480ed53b9e50",
-    "url": "/static/media/many_mii.948b08f3.jpg"
+    "revision": "aaa1e6e93887dfeb2d0cd6f5acaa3b43",
+    "url": "/static/media/mii.aaa1e6e9.png"
   },
   {
-    "revision": "72dd338a4e610cf6df88",
-    "url": "/static/css/main.948f8d11.chunk.css"
+    "revision": "0b07999e0b8c9ab11cd5",
+    "url": "/static/css/main.cc44eb0a.chunk.css"
   },
   {
-    "revision": "1d9a4c0c90302e94fc70",
-    "url": "/static/js/1.1d9a4c0c.chunk.js"
+    "revision": "8756c041755748aaca55",
+    "url": "/static/js/1.8756c041.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -22,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "c2cb7a7e69af9449a727b2e24053758f",
     "url": "/static/media/still.c2cb7a7e.jpg"
+  },
+  {
+    "revision": "e8708703f4dd7ad02b439629c584dd12",
+    "url": "/static/media/about.e8708703.jpg"
   },
   {
     "revision": "ba8c0e5fa8c2c951dbb0021ef90026bf",
@@ -88,12 +92,12 @@ self.__precacheManifest = [
     "url": "/static/media/dev_view.ebc27aaf.jpg"
   },
   {
-    "revision": "72dd338a4e610cf6df88",
-    "url": "/static/js/main.72dd338a.chunk.js"
+    "revision": "948b08f3efb4123cb81b480ed53b9e50",
+    "url": "/static/media/many_mii.948b08f3.jpg"
   },
   {
-    "revision": "aaa1e6e93887dfeb2d0cd6f5acaa3b43",
-    "url": "/static/media/mii.aaa1e6e9.png"
+    "revision": "0b07999e0b8c9ab11cd5",
+    "url": "/static/js/main.0b07999e.chunk.js"
   },
   {
     "revision": "b99f5743e5844b6c9eb3f923db14c7a8",
@@ -144,6 +148,10 @@ self.__precacheManifest = [
     "url": "/static/media/create-lab.0cba3cd9.png"
   },
   {
+    "revision": "6d792ec5ccaab095e92507d8f4f7044e",
+    "url": "/static/media/digital.6d792ec5.png"
+  },
+  {
     "revision": "0cd88dbb057f317adea094a9cf6b25a6",
     "url": "/static/media/ems.0cd88dbb.png"
   },
@@ -160,12 +168,20 @@ self.__precacheManifest = [
     "url": "/static/media/map-voices.e4f78318.png"
   },
   {
+    "revision": "bc8307a80639e4a46d183512370287f5",
+    "url": "/static/media/sneeple.bc8307a8.png"
+  },
+  {
     "revision": "5a97a5403b0780ad4566cf7fd88a13bf",
     "url": "/static/media/test.5a97a540.jpg"
   },
   {
     "revision": "6c1e3b4408079a12a114054d6d5c7712",
     "url": "/static/media/test2.6c1e3b44.jpg"
+  },
+  {
+    "revision": "748869f93d5b05e76d73dabd7951f780",
+    "url": "/static/media/traditional.748869f9.png"
   },
   {
     "revision": "af7774cc34d28acb9515eac00e66e516",
@@ -176,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/voices-of-belfast.5423c33a.jpg"
   },
   {
-    "revision": "c674a542975dbd4f047f8575e5eaa3d6",
+    "revision": "256e513735aad35584e8972ba0f2541e",
     "url": "/index.html"
   }
 ];
