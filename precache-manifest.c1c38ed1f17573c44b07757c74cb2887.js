@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/mii.aaa1e6e9.png"
   },
   {
-    "revision": "431d284776cb1b0ffe5d",
+    "revision": "4a453526d4866cf92d52",
     "url": "/static/css/main.d32d5d01.chunk.css"
   },
   {
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/static/media/many_mii.948b08f3.jpg"
   },
   {
-    "revision": "431d284776cb1b0ffe5d",
-    "url": "/static/js/main.431d2847.chunk.js"
+    "revision": "4a453526d4866cf92d52",
+    "url": "/static/js/main.4a453526.chunk.js"
   },
   {
     "revision": "b99f5743e5844b6c9eb3f923db14c7a8",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/voices-of-belfast.5423c33a.jpg"
   },
   {
-    "revision": "77a535ee74f3897d3015eca96ac34eb7",
+    "revision": "18e601b8cf4ced26b416660cf757c2c6",
     "url": "/index.html"
   }
 ];
