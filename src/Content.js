@@ -21,7 +21,7 @@ class App extends Component {
         <br></br>
             <div className="Header">
               <div id="name">
-                <img width="80px" src={require("./assets/logo.svg")}/>
+                <img width="70px" src={require("./assets/logo.svg")}/>
                 <br/>
                 LAUREN ZHANG
               </div>

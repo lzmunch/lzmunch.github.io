@@ -31,7 +31,7 @@ function getGalleryBoxes(scope) {
     if (gb.redirect && filter.includes(gb.link)){
       items.push(
         <a href={gb.redirect} target="_blank" className="Box">
-          <div className="Overlay"> {gb.desc} </div>
+          <div className="CaptionOverlay"> {gb.desc} </div>
           <img src={require("" + thumbnailsPath + gb.link + gb.filetype)} alt={"thumbnail for " + gb.desc}/> 
         </a>
       );
@@ -53,7 +53,7 @@ class Box extends Component {
         console.log(this.props.link)
         return (
             <Link to={"/" + this.props.link} className="Box">
-                <div className="Overlay"> {this.props.desc} </div>
+                <div className="CaptionOverlay"> {this.props.desc} </div>
                 <img src={require("" + thumbnailsPath + this.props.link + this.props.filetype)} alt={"thumbnail for " + this.props.desc}/> 
             </Link>
         ); 

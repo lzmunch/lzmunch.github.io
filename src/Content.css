@@ -7,7 +7,7 @@
     /*left: -17.5vw;*/
     background: white; 
     text-align: center; 
-    font-family: "courier prime";
+    /*font-family: "courier prime";*/
 
 /*    background-color: black;
     color: white;
@@ -21,6 +21,7 @@
 #name{
     font-size: 50px; 
     padding: 5px; 
+    font-family: "courier prime";
 }
 #buttons{
     width: 90vw; 
@@ -75,12 +76,13 @@
     text-align: center;
     /*text-align: left;*/
     /*font-family: "Courier Prime";*/
-    line-height: 25px;
 }
 .Project p{
     text-align:left;
     margin: auto;
-    max-width: 700px;
+    /*max-width: 700px;*/
+    max-width: 80%;
+    line-height: 25px;
 }
 .Project h{
     font-weight: normal;
@@ -90,7 +92,15 @@
 }
 .Project h3{
     font-weight: normal;
+    margin: 5px;
+    /*line-height: 20px;*/
 }
+.Project h4{
+    font-weight: normal;
+    margin: 5px;
+    /*line-height: 20px;*/
+}
+
 .Box img {
     width: 300px; 
     max-width: 100%; 
@@ -129,6 +139,20 @@
     opacity: 1;
     color: white; 
     font-style: normal;   
+}
+
+.CaptionOverlay{
+    background: rgba(0, 0, 0, .6); 
+    width: 300px; 
+    height: 50px; 
+    position: absolute; 
+    margin: auto;
+    z-index: 2; 
+    text-align: center; 
+    line-height: 50px; 
+    text-transform: uppercase; 
+    bottom:20px;
+    color: white;
 }
 
 #nothing{
