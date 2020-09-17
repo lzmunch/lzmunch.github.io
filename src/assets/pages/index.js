@@ -1,11 +1,19 @@
 // export {default as MiiPage} from './mii';
 
+
+const code = ["white", "ems", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"];
+const fun = ["white", "test", "sneeple", "traditional", "digital"];
+const art = ["white", "grasshopper", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"];
+const home = ["imaging-research", "virtual-cmu-fence", "create-lab", "mii", "grasshopper", "3d-shadow-anim"];
+let all = new Set();
+code.concat(fun).concat(art.concat(home)).forEach(x => all.add(x));
+
 export const galleryCategories = { 
-	"code" : ["white", "ems", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"],
-    "fun" : ["white", "test", "sneeple", "traditional", "digital"],
-    "art" : ["white", "grasshopper", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"],
-    "home" : ["white", "grasshopper", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim", "ems"],
-    "" : []
+	"code" : code,
+    "fun" : fun,
+    "art" : art,
+    "home" : home,
+    "all" : Array.from(all)
 };
 
 // for adding gallery boxes and linking project pages

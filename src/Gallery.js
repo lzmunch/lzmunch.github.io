@@ -12,9 +12,7 @@ class Gallery extends Component {
     };
   }
   render() {
-    console.log("gallery",this.state);
     let boxes = getGalleryBoxes(this);
-    console.log("boxes", boxes);
     return (
         <div className="Gallery">
           { boxes }
@@ -23,6 +21,7 @@ class Gallery extends Component {
   }
 }
 
+// read in gallery information from asets/pages/index.js
 function getGalleryBoxes(scope) {
   let items = [];
   for (let gb of projectInfos){
@@ -50,7 +49,6 @@ function getGalleryBoxes(scope) {
 class Box extends Component { 
     render() { 
       if(this.props.filter.includes(this.props.link)){
-        console.log(this.props.link)
         return (
             <Link to={"/" + this.props.link} className="Box">
                 <div className="CaptionOverlay"> {this.props.desc} </div>

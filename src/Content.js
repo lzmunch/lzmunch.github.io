@@ -38,6 +38,7 @@ class App extends Component {
             <Switch>
                 {pageLinks}
                 <Route path={'/about'} component={() => <Project link="about"/>} />
+                <Route path={'/all'} component={() => <Project link="all"/>} />
                 <Route path={'/'} component={() => <Project link="home"/>} />
                 <Route path={'/homepage'} component={() => <Gallery current="home"/>} />
             </Switch>

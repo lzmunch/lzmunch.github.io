@@ -23,7 +23,6 @@ class Project extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     // window.scrollTo({top: 0, behavior: 'smooth'});
-    console.log(';jklsfkjsadfkjldsaf')
   } 
   render() {
     console.log("project", this.props.link);
@@ -57,6 +56,18 @@ class Project extends Component {
             </div>
             <div style={{maxWidth:"75%",marginLeft:"13%"}}>
               <Gallery current="home"/>
+           </div>
+           <p><a href="#/all">[All projects]</a></p>
+          </div>
+        );
+      case "all": 
+        return (
+          <div id="all-projects">
+            <div className="Project">
+              <h3>All Projects</h3>
+            </div>
+            <div style={{maxWidth:"75%",marginLeft:"13%"}}>
+              <Gallery current="all"/>
            </div>
           </div>
         );
