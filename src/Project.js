@@ -54,7 +54,10 @@ class Project extends Component {
               <h3>Software Developer + Creative</h3>
               <h3><a href={resumeLink} target="_blank" rel="noopener noreferrer">[Resume]</a></h3>
             </div>
-            <div style={{maxWidth:"75%",marginLeft:"13%"}}>
+            <div style={{maxWidth:"100%",marginLeft:"1%"}}>
+              <iframe src="https://player.vimeo.com/video/464015219" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+           </div>
+           <div style={{maxWidth:"75%",marginLeft:"13%"}}>   
               <Gallery current="home"/>
            </div>
            <p><a href="#/all">[All projects]</a></p>
