@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.d32d5d01.chunk.css",
-  "main.js": "/static/js/main.b312218e.chunk.js",
-  "main.js.map": "/static/js/main.b312218e.chunk.js.map",
+  "main.js": "/static/js/main.ef003d4e.chunk.js",
+  "main.js.map": "/static/js/main.ef003d4e.chunk.js.map",
   "static/js/1.5eda1b06.chunk.js": "/static/js/1.5eda1b06.chunk.js",
   "static/js/1.5eda1b06.chunk.js.map": "/static/js/1.5eda1b06.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -52,6 +52,6 @@
   "static/media/voices-of-belfast.jpg": "/static/media/voices-of-belfast.5423c33a.jpg",
   "static/css/main.d32d5d01.chunk.css.map": "/static/css/main.d32d5d01.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b0fb83a88c40a635374a111fddc6c596.js": "/precache-manifest.b0fb83a88c40a635374a111fddc6c596.js",
+  "precache-manifest.142bc00a2abd59105d396efc9a54b2b7.js": "/precache-manifest.142bc00a2abd59105d396efc9a54b2b7.js",
   "service-worker.js": "/service-worker.js"
 }
