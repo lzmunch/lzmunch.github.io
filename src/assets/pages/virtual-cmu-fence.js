@@ -6,6 +6,7 @@ import {
 	ProjectSubtitle,
 	ProjectTechnologies,
 	ProjectLink,
+	ProjectOverview,
 } from './ProjectClasses';
 // <a href="url" target="_blank" rel="noopener noreferrer">
 
@@ -22,7 +23,10 @@ const project = () => (
 	    <ProjectLink href="http://virtual-cmu-fence.herokuapp.com/#home" text="Live app"/>
 	    <br/>
 
-	    <ProjectTechnologies text="Javascript(jQuery, Node.js, THREE.js), HTML, CSS, Heroku" />
+	    <ProjectOverview 
+	 		objective="Create a tool to take 2D picture of the CMU fence as input and output a 3D textured model."
+	    	contribution="Built entire web app and hosted it on Heroku, integrating work from 3D modeler and from UX designer."
+	    	tech="Javascript(jQuery, Node.js, THREE.js), HTML, CSS, Heroku" />
 
 		<p><b>Description</b></p> 
 	    <p>Painting The Fence at CMU is a hallowed tradition, but it's not easy to document and record its ever-changing canvas. The goal of this project was to create a simple way to archive different versions of the fence. Just upload a front and back image of the fence, and you can view a virtual 3D model of that painted version.</p>

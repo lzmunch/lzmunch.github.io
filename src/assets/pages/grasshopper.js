@@ -5,6 +5,7 @@ import {
 	ProjectTitle,
 	ProjectSubtitle,
 	ProjectTechnologies,
+	ProjectOverview,
 } from './ProjectClasses';
 // <a href="url" target="_blank" rel="noopener noreferrer">
 
@@ -14,10 +15,13 @@ const project = () => (
 	    <ProjectSubtitle text="(Spring 2019)"/>
 
 	    <ProjectModalImage size="med" imgPath="./grasshopper/filled_lattice_y.gif"/>
-	    <ProjectModalImage size="med" imgPath="./grasshopper/printed.png"/>
-	    <ProjectModalImage size="med" imgPath="./grasshopper/printed2.png"/>
+	    <ProjectModalImage size="small" imgPath="./grasshopper/printed.png"/>
+	    <ProjectModalImage size="small" imgPath="./grasshopper/printed2.png"/>
 
-		<ProjectTechnologies text="Rhino, Grasshopper, 3D printer"/>
+		<ProjectOverview
+			objective="Demonstrate understanding of how to use Rhino's Grasshopper programming plugin (solo class project)."
+			tech="Rhino, Grasshopper, 3D printer"
+			time="3 weeks"/>
 
 	    <p>This was a project for Intermediate Rapid Prototyping Technologies, taught in spring 2019 by David Touretzky.</p>
 	    <br/>

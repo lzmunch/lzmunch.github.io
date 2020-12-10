@@ -2,7 +2,8 @@ import React from 'react';
 import ProjectModalImage from './ProjectModalImage';
 import {
 	ProjectTitle,
-	ProjectSubtitle
+	ProjectSubtitle,
+	ProjectOverview,
 } from './ProjectClasses';
 // <a href="url" target="_blank" rel="noopener noreferrer">
 
@@ -14,11 +15,12 @@ const project = () => (
 
 	    <ProjectModalImage size="large" imgPath="./3d-shadow-anim/final_video_gif.gif"/>
 
-	    <p><b>Technologies Used</b></p> 
-	    <p>Unity, C#, bash</p>
-	    <br/>
+	    <ProjectOverview
+	    	objective='Create an experimental "puppeteering" animation with a team of 3 in 4 weeks.'
+	    	contribution="Created tool to convert edge detection data into 3D animated mesh, for artist to use in creating the final piece."
+	    	tech="Unity, C#, bash"/>
 
-	    <p><b>Description</b></p> 
+	    <p><b>Details</b></p> 
 	    <p>This is a group project with <a href="https://www.instagram.com/huwmessie/" target="_blank" rel="noopener noreferrer">Huw Messie</a> and <a href="https://juliepetrusak.wordpress.com/about/" target="_blank" rel="noopener noreferrer">Julie Petrusak</a> for the class Experimental Animation, taught by Jessica Hodgins and James Duesing in Spring 2019. Our group's idea was to take the 2D outline of a silhouette created by a shadow hand puppet and somehow turn it into a 3D object. The movement of a hand woud puppet a shadow, which would in turn puppet a 3D object.</p>
 	    <br/>
 	    <p>It uses Processing for edge detection and Unity to translate points into 3D space, generate meshes, and animate camera movements. I contributed to converting the data and generating the meshes in Unity, using some bash scripts for data processing.</p>

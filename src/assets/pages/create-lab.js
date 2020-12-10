@@ -6,6 +6,7 @@ import {
 	ProjectTitle,
 	ProjectSubtitle,
 	ProjectTechnologies,
+	ProjectOverview
 } from './ProjectClasses';
 
 const project = () => ( 
@@ -21,9 +22,12 @@ const project = () => (
 	    </p>
 	    <br/>
 
-	    <ProjectTechnologies text="Javascript, JQuery, CSS, HTML, Python Flask, WebGL, Ruby"/>
+		<ProjectOverview
+			objective="Develop new features for CREATE Lab's EarthTime geographic data visualization library."
+			contribution="(Frontend) Created feature to display data from specificed date range. Designed and implemented visualization for a new set of data. (Backend) Created proxy web server to combine data from multiple other backend servers."
+			tech="Javascript, JQuery, CSS, HTML, Python Flask, WebGL, Ruby"
+			time="3 months"/>
 
-	    <p><b>Description</b></p> 
 	    <p>In summer 2019 I interned at the Community Robotics, Education and Technology Empowerment Lab (<a href="https://cmucreatelab.org/home">CREATE Lab</a>). I designed and created air pollution visualizations, based on smell reports from the <a href="https://smellpgh.org/">Smell PGH app</a> and sensor data, as part of the CREATE lab's <a href="https://earthtime.org/explore">Earthtime data visualization library</a>.</p>
 	    <br/>
 	    <p>In addition to creating new visualizations for air quality, I added a date selection feature that can be used by any future visualizations created.</p>

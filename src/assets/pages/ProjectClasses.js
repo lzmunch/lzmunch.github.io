@@ -36,6 +36,26 @@ export class ProjectTechnologies extends Component {
     }
 }
 
+export class ProjectOverview extends Component { 
+    constructor(props) {
+        super(props);
+    }
+    render() { 
+        return (
+            <div className="ProjectOverview">
+                <p><b>Objective:</b> {this.props.objective}</p>
+                <br/>
+                {this.props.contribution ? 
+                    <div><p><b>Contribution:</b> {this.props.contribution}</p><br/></div> : null}
+                <p><b>Technologies Used:</b> {this.props.tech}</p>
+                <br/>
+                {this.props.time ? 
+                    <div><p><b>Time:</b> {this.props.time}</p><br/></div> : null}
+            </div>
+        );
+    }
+}
+
 export class ProjectLink extends Component { 
     constructor(props) {
     	super(props);

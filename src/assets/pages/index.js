@@ -1,10 +1,10 @@
 // export {default as MiiPage} from './mii';
 
 
-const code = ["white", "ems", "mii", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"];
-const fun = ["white", "test", "sneeple", "traditional", "digital"];
-const art = ["white", "grasshopper", "mii", "voices-of-belfast", "3d-shadow-anim", "ems"];
-const home = ["imaging-research", "virtual-cmu-fence", "create-lab", "mii", "grasshopper", "3d-shadow-anim"];
+const code = ["white", "ems", "create-lab", "imaging-research", "voices-of-belfast", "virtual-cmu-fence", "3d-shadow-anim"];
+const fun = ["white", "test", "sneeple", "mii"];
+const art = ["white", "grasshopper", "mii", "voices-of-belfast", "3d-shadow-anim", "ems", "traditional", "digital"];
+const home = ["imaging-research", "virtual-cmu-fence", "create-lab", "grasshopper", "3d-shadow-anim"];
 let all = new Set();
 code.concat(fun).concat(art.concat(home)).forEach(x => all.add(x));
 
@@ -23,7 +23,7 @@ export const projectInfos = [
 		link: "imaging-research",
 		filetype: ".jpg",
 		desc: "Accessible Imaging Platform",
-		redirect: "https://lzmunch.github.io/beaglebone-imaging/"
+		//redirect: "https://lzmunch.github.io/beaglebone-imaging/"
 	},
 	{
 		link: "mii",
