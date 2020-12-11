@@ -14,7 +14,7 @@ import ShadowAnimPage from './assets/pages/3d-shadow-anim';
 import EmsPage from './assets/pages/ems';
 import GrasshopperPage from './assets/pages/grasshopper';
 
-const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
+import { resumeLink } from './assets/pages/index';
 
 class Project extends Component {
   constructor(props) {

@@ -1,6 +1,7 @@
 import React from 'react';
+import {resumeLink} from './index';
 // import aboutImage from "../about.jpg";
-const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
+
 const project = () => ( 
 	<div className="Project">
 	  <img src={require("../about.jpg")} alt="me" style={{maxHeight:"300px"}}/>

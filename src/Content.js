@@ -4,7 +4,10 @@ import './App.css';
 import Gallery from './Gallery.js';
 import Project from './Project.js';
 import './Content.css';
-import { projectInfos } from './assets/pages/index'
+import { 
+  projectInfos,
+  lastUpdateTime,
+} from './assets/pages/index'
 
 class App extends Component {
   constructor(props) {
@@ -42,6 +45,12 @@ class App extends Component {
                 <Route path={'/'} component={() => <Project link="home"/>} />
                 <Route path={'/homepage'} component={() => <Gallery current="home"/>} />
             </Switch>
+            <br/>
+            <br/>
+            <br/>
+            <p><i>Made with React</i></p>
+            <p><i>Last updated {lastUpdateTime}</i></p>
+            <br/>
         </div>
     );
   }

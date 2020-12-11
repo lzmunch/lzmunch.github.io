@@ -4,7 +4,7 @@
     width: 90vw;
     /*padding-left: -17.5vw;*/
     /*left: -17.5vw;*/
-    background: white; 
+    /*background: white; */
     text-align: center; 
     /*font-family: "courier prime";*/
 
@@ -61,6 +61,7 @@
     margin: auto;
     margin-bottom: 10vh; 
     margin-top: -18px; 
+    background-color: white;
 }
 .Gallery{
     margin-top: 30px; 

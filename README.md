@@ -12,5 +12,6 @@ Link to website
 ## Workflow
 * `npm run start` to start local server
 * Make changes to feature branch for local development, commit, push, etc.
-* Deploy to gh-pages branch with `npm run deploy`
-* Switch to master and then pull in feature branch with `git pull origin feature`
+* Update `lastUpdateTime` in `src/assets/pages/index.js` to show when webpage was last updated.
+* Deploy to gh-pages branch with `npm run deploy` and check for bugs. If you need to roll back, switch to master branch and deploy to gh-pages from there.
+* Wwitch to master and then pull in feature branch with `git pull origin feature`
