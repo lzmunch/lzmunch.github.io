@@ -1,7 +1,8 @@
 .Header{
     position: relative; 
     font-size: 20px; 
-    width: 90vw;
+    /*width: 90vw;*/
+    width: 100%;
     /*padding-left: -17.5vw;*/
     /*left: -17.5vw;*/
     /*background: white; */
@@ -23,7 +24,8 @@
     font-family: "courier prime";
 }
 #buttons{
-    width: 90vw; 
+    /*width: 90vw; */
+    width:100%;
     text-align: center; 
     left: 0; 
     right: 0; 
@@ -59,9 +61,11 @@
 .Content {
     /*width: 65vw; */
     margin: auto;
-    margin-bottom: 10vh; 
-    margin-top: -18px; 
+    /*margin-bottom: 10vh; */
+    margin-bottom: -100px; 
+    margin-top: -20px; 
     background-color: white;
+    max-width: 1000px;
 }
 .Gallery{
     margin-top: 30px; 
@@ -82,10 +86,11 @@
     margin: auto;
     /*max-width: 700px;*/
     max-width: 80%;
-    line-height: 25px;
+    /*line-height: 25px;*/
+    line-height:20px;
 }
 .Project h{
-    font-weight: normal;
+    font-weight: bold;
 }
 .Project h2{
     font-weight: normal;
@@ -101,13 +106,21 @@
     /*line-height: 20px;*/
 }
 .Project h6{
-    text-align:left;
+    /*text-align:left;*/
     margin: auto;
     /*max-width: 700px;*/
     max-width: 80%;
     line-height: 25px;
     font-size: inherit;
 }
+
+.inline-block {
+    display:inline-block;
+}
+
+.center-align {
+    text-align: center !important;
+} 
 
 .Box img {
     width: 300px; 

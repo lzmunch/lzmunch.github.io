@@ -48,6 +48,7 @@ class App extends Component {
             <br/>
             <br/>
             <br/>
+            <p>- - -</p>
             <p><i>Made with React</i></p>
             <p><i>Last updated {lastUpdateTime}</i></p>
             <br/>
