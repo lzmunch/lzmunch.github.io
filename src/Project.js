@@ -14,6 +14,9 @@ import ShadowAnimPage from './assets/pages/3d-shadow-anim';
 import EmsPage from './assets/pages/ems';
 import GrasshopperPage from './assets/pages/grasshopper';
 
+import DrunkoBrunkoPage from './assets/pages/bvw/drunko-brunko';
+import GnomesPage from './assets/pages/bvw/gnomes-in-a-robe';
+
 import { resumeLink } from './assets/pages/index';
 
 class Project extends Component {
@@ -47,6 +50,10 @@ class Project extends Component {
         return ( <VirtualCmuFencePage/>);
       case "3d-shadow-anim": 
         return ( <ShadowAnimPage/>);
+      case "drunko-brunko": 
+        return ( <DrunkoBrunkoPage/>);
+      case "gnomes-in-a-robe": 
+        return ( <GnomesPage/>);
       case "home": 
         return (
           <div id="homepage">
