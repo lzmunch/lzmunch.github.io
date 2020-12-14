@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "aaa1e6e93887dfeb2d0cd6f5acaa3b43",
-    "url": "/static/media/mii.aaa1e6e9.png"
+    "revision": "833cddcd6043bf91e95a2934c9e30106",
+    "url": "/static/media/group.833cddcd.png"
   },
   {
-    "revision": "c9a7cab8c7421f803386",
-    "url": "/static/css/main.9418973c.chunk.css"
+    "revision": "c56d919ed6cdf5d1f659",
+    "url": "/static/css/main.fc93c6f6.chunk.css"
   },
   {
-    "revision": "5071eabbbebe1cec195b",
-    "url": "/static/js/1.5071eabb.chunk.js"
+    "revision": "4738b4f3b81ecfa0dcf6",
+    "url": "/static/js/1.4738b4f3.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -26,6 +26,82 @@ self.__precacheManifest = [
   {
     "revision": "e8708703f4dd7ad02b439629c584dd12",
     "url": "/static/media/about.e8708703.jpg"
+  },
+  {
+    "revision": "1a4f39cfe2456e6adb6c74d7088f33b2",
+    "url": "/static/media/drunko-brunko-title.1a4f39cf.jpg"
+  },
+  {
+    "revision": "6edda92a119f0121af46a582a0b0de16",
+    "url": "/static/media/game_env_1.6edda92a.jpg"
+  },
+  {
+    "revision": "cf4295bc673dd5755d4940623a8d90b6",
+    "url": "/static/media/game_env_2.cf4295bc.jpg"
+  },
+  {
+    "revision": "84c4745ade78f6631dbfe4fdf16c5602",
+    "url": "/static/media/game_env_3.84c4745a.jpg"
+  },
+  {
+    "revision": "6a2f6c068e467c2eda81343caca7413b",
+    "url": "/static/media/person_anim.6a2f6c06.gif"
+  },
+  {
+    "revision": "b31cc895b30573cf3fe5f921cf8cc1cb",
+    "url": "/static/media/clock.b31cc895.jfif"
+  },
+  {
+    "revision": "734cb9a1ecafc22819ef3c5d3f9b236d",
+    "url": "/static/media/concept_art1.734cb9a1.jpg"
+  },
+  {
+    "revision": "6564208d54de626a6007f19a66655c93",
+    "url": "/static/media/concept_art2.6564208d.jpg"
+  },
+  {
+    "revision": "d5a737bebc42b5fb312a8b552a0f22dd",
+    "url": "/static/media/cover_photo.d5a737be.png"
+  },
+  {
+    "revision": "64c29d3087a6d97c0c4bc420f5aee2bf",
+    "url": "/static/media/environ1.64c29d30.png"
+  },
+  {
+    "revision": "ac63081ea52173371f2df1a975791b4a",
+    "url": "/static/media/environ2.ac63081e.png"
+  },
+  {
+    "revision": "7a5f8eb506bf49aa28e04ad9f806fad8",
+    "url": "/static/media/environ3.7a5f8eb5.png"
+  },
+  {
+    "revision": "d0ae26d55f90e8b9978fff7f395ffe69",
+    "url": "/static/media/festival1.d0ae26d5.png"
+  },
+  {
+    "revision": "a244eb0d104de881b525c2cea0b32a0b",
+    "url": "/static/media/festival2.a244eb0d.png"
+  },
+  {
+    "revision": "46277216b3f95daeddcd61bd5f604819",
+    "url": "/static/media/magic_circle.46277216.jfif"
+  },
+  {
+    "revision": "b9669a886ca05fd802b4a5229b2efc99",
+    "url": "/static/media/ui1.b9669a88.png"
+  },
+  {
+    "revision": "21abe71492c9239f2e2d4e9cd799a11b",
+    "url": "/static/media/ui2.21abe714.png"
+  },
+  {
+    "revision": "9b82ba51f2e18ccb2a7d8e5f2d5485ef",
+    "url": "/static/media/ui3.9b82ba51.png"
+  },
+  {
+    "revision": "c4512e50e92e857ad4a8928154900c99",
+    "url": "/static/media/ui4.c4512e50.png"
   },
   {
     "revision": "ba8c0e5fa8c2c951dbb0021ef90026bf",
@@ -64,8 +140,8 @@ self.__precacheManifest = [
     "url": "/static/media/filled_lattice_y.e893754c.gif"
   },
   {
-    "revision": "833cddcd6043bf91e95a2934c9e30106",
-    "url": "/static/media/group.833cddcd.png"
+    "revision": "c56d919ed6cdf5d1f659",
+    "url": "/static/js/main.c56d919e.chunk.js"
   },
   {
     "revision": "9443ac3e87a2415f898d3fb1e83c075e",
@@ -96,8 +172,8 @@ self.__precacheManifest = [
     "url": "/static/media/many_mii.948b08f3.jpg"
   },
   {
-    "revision": "c9a7cab8c7421f803386",
-    "url": "/static/js/main.c9a7cab8.chunk.js"
+    "revision": "aaa1e6e93887dfeb2d0cd6f5acaa3b43",
+    "url": "/static/media/mii.aaa1e6e9.png"
   },
   {
     "revision": "b99f5743e5844b6c9eb3f923db14c7a8",
@@ -152,8 +228,16 @@ self.__precacheManifest = [
     "url": "/static/media/digital.6d792ec5.png"
   },
   {
+    "revision": "db1931c9431fc9ccc4f9210e26f8ae5d",
+    "url": "/static/media/drunko-brunko.db1931c9.jpg"
+  },
+  {
     "revision": "0cd88dbb057f317adea094a9cf6b25a6",
     "url": "/static/media/ems.0cd88dbb.png"
+  },
+  {
+    "revision": "b3075a4b16af47b24de323be9ea3b33e",
+    "url": "/static/media/gnomes-in-a-robe.b3075a4b.jpg"
   },
   {
     "revision": "38e0d8e2a9d5b04e2603d1f134903c01",
@@ -192,7 +276,7 @@ self.__precacheManifest = [
     "url": "/static/media/voices-of-belfast.5423c33a.jpg"
   },
   {
-    "revision": "07f9b4fe06896a016516cb195ae538c2",
+    "revision": "4cd373ff90faddf40e8d68f04ee9a5c1",
     "url": "/index.html"
   }
 ];
