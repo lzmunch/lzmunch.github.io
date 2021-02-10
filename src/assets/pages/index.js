@@ -1,9 +1,9 @@
 // export {default as MiiPage} from './mii';
 
 
-const code = ["white", "ems", "create-lab", "imaging-research", "virtual-cmu-fence", "3d-shadow-anim"];
+const code = ["white", "create-lab", "imaging-research", "virtual-cmu-fence", "3d-shadow-anim"];
 const fun = ["white", "test", "sneeple", "mii"];
-const art = ["white", "drunko-brunko", "gnomes-in-a-robe", "grasshopper", "mii", "voices-of-belfast", "ems", "traditional", "digital"];
+const art = ["white", "drunko-brunko", "gnomes-in-a-robe", "grasshopper", "voices-of-belfast", "ems", "traditional", "digital"];
 const home = ["drunko-brunko", "gnomes-in-a-robe", "imaging-research", "virtual-cmu-fence", "create-lab", , "grasshopper", "3d-shadow-anim"];
 let all = new Set();
 code.concat(fun).concat(art.concat(home)).forEach(x => all.add(x));
@@ -19,7 +19,7 @@ export const galleryCategories = {
 // const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
 export const resumeLink = "https://drive.google.com/file/d/1zaWOj4gcUEn0fyXEKrqQgwa-tArcW12K/view?usp=sharing";
 
-export const lastUpdateTime = "12/11/2020"
+export const lastUpdateTime = "02/10/2021"
 
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js
