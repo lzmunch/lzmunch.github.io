@@ -15,3 +15,7 @@ Link to website
 * Update `lastUpdateTime` in `src/assets/pages/index.js` to show when webpage was last updated.
 * Deploy to gh-pages branch with `npm run deploy` and check for bugs. If you need to roll back, switch to master branch and deploy to gh-pages from there.
 * Switch to master and then pull in feature branch with `git pull origin feature`
+
+## Todos
+* Remove extra `ProjectModalImage` class
+* Create href class that includes`target="_blank"` and `rel=noopener noreferrer"` 
