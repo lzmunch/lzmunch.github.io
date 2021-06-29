@@ -4,7 +4,6 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import {
 	ProjectTitle,
 	ProjectSubtitle,
-	ProjectTechnologies,
 } from './ProjectClasses';
 // <a href="url" target="_blank" rel="noopener noreferrer">
 
@@ -12,7 +11,7 @@ const project = () => (
 	<div className="Project">
 	    <ProjectTitle text="Interactivity and Computation" />
 	    <ProjectSubtitle text="(Fall 2018)" />
-	    <p>These are are selection of projects I created for Golan Levin's class "Interactivity and Computation" taught in Fall 2018. More projects and documentation: <a href="http://cmuems.com/2018/60212f/author/nerual/" target="_blank">here</a>.</p>
+	    <p>These are are selection of projects I created for Golan Levin's class "Interactivity and Computation" taught in Fall 2018. More projects and documentation: <a href="http://cmuems.com/2018/60212f/author/nerual/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 	    <br/>
 
 	    <h2 style={{fontWeight:"normal"}}>
@@ -36,7 +35,7 @@ const project = () => (
 			    Cloud Simulator: Face Motion Capture
 		    </a>
 		</h2>
-	    <p><b>Technologies:</b> p5.js, <a href="https://glitch.com/~cmuems-clm-networked-face" target="_blank">template with clmTracker</a>, <a href="https://brm.io/matter-js/" target="_blank">Matter.js</a> for the physics</p><br/>
+	    <p><b>Technologies:</b> p5.js, <a href="https://glitch.com/~cmuems-clm-networked-face" target="_blank" rel="noopener noreferrer">template with clmTracker</a>, <a href="https://brm.io/matter-js/" target="_blank" rel="noopener noreferrer">Matter.js</a> for the physics</p><br/>
 	    <p>Why go outside when you can vicariously experience the great outdoors as a cloud? Turn your head and blow yourself back and forth.</p>
 	    <ProjectModalImage size="med" imgPath="./ems/cloudy.gif"/>
 	    <p>I really like clouds. One of the commonalities among some examples of face tracking I've seen is giving non-human objects human qualities, so I thought I'd try it with clouds.</p>

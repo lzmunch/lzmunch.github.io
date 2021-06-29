@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import ProjectModalImage from './ProjectModalImage';
 
 export class ProjectTitle extends Component { 
-    constructor(props) {
-    	super(props);
-	}
+ //    constructor(props) {
+ //    	super(props);
+	// }
     render() { 
         return (
             <h>{this.props.text}</h>
@@ -13,9 +13,9 @@ export class ProjectTitle extends Component {
 }
 
 export class ProjectSubtitle extends Component { 
-    constructor(props) {
-    	super(props);
-	}
+ //    constructor(props) {
+ //    	super(props);
+	// }
     render() { 
         return (
             <h3><i>{this.props.text}</i></h3>
@@ -24,9 +24,9 @@ export class ProjectSubtitle extends Component {
 }
 
 export class ProjectCaption extends Component { 
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
     render() { 
         return (
             <p style={{textAlign:"center"}}><i>{this.props.text}</i></p>
@@ -35,9 +35,9 @@ export class ProjectCaption extends Component {
 }
 
 export class ProjectImageRow extends Component { 
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
     render() { 
         let images = [];
         // add img 1
@@ -71,9 +71,9 @@ export class ProjectImageRow extends Component {
 }
 
 export class ProjectTechnologies extends Component { 
-    constructor(props) {
-    	super(props);
-	}
+ //    constructor(props) {
+ //    	super(props);
+	// }
     render() { 
         return (
         	<div className="ProjectTechnologies">
@@ -85,9 +85,9 @@ export class ProjectTechnologies extends Component {
 }
 
 export class ProjectOverview extends Component { 
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
     render() { 
         return (
             <div className="ProjectOverview">
@@ -106,9 +106,9 @@ export class ProjectOverview extends Component {
 }
 
 export class ProjectLink extends Component { 
-    constructor(props) {
-    	super(props);
-	}
+ //    constructor(props) {
+ //    	super(props);
+	// }
     render() { 
         return (
 		    <p style={{textAlign:"center"}}>

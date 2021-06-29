@@ -1,7 +1,7 @@
 const code = ["white", "create-lab", "imaging-research", "virtual-cmu-fence", "3d-shadow-anim"];
 const fun = ["white", "test", "sneeple", "mii"];
 const art = ["white", "drunko-brunko", "gnomes-in-a-robe", "grasshopper", "voices-of-belfast", "ems", "traditional", "digital"];
-const home = ["drunko-brunko", "gnomes-in-a-robe", "imaging-research", "virtual-cmu-fence", "create-lab", , "grasshopper", "3d-shadow-anim"];
+const home = ["drunko-brunko", "gnomes-in-a-robe", "imaging-research", "virtual-cmu-fence", "create-lab", "grasshopper", "3d-shadow-anim"];
 let all = new Set();
 code.concat(fun).concat(art.concat(home)).forEach(x => all.add(x));
 

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
 
 class ProjectModalImage extends Component { 
-    constructor(props) {
-    	super(props);
-	}
+ //    constructor(props) {
+ //    	super(props);
+	// }
     componentDidMount() {
         // remove loading text
         var element = document.getElementById("loading-text");

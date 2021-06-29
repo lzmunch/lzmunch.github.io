@@ -1,11 +1,9 @@
 import React from 'react';
-import InstagramEmbed from 'react-instagram-embed';
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ProjectModalImage from './ProjectModalImage'
 import {
 	ProjectTitle,
 	ProjectSubtitle,
-	ProjectTechnologies,
 	ProjectOverview
 } from './ProjectClasses';
 
@@ -17,7 +15,7 @@ const project = () => (
 
 	    <ProjectModalImage size="large" imgPath="./create-lab/sensors_smell_reports.gif"/>
 
-	    <p style={{textAlign:"center",fontWeight:"bold"}}><a href="https://earthtime.org/explore#v=40.38807,-79.96699,9.83,latLng&t=29.79&ps=50&l=bdrk,smell_my_city_pgh_reports,smell_my_city_pgh_wind&bt=201904010000&et=201904100000&startDwell=0&endDwell=0" target="_blank"> 
+	    <p style={{textAlign:"center",fontWeight:"bold"}}><a href="https://earthtime.org/explore#v=40.38807,-79.96699,9.83,latLng&t=29.79&ps=50&l=bdrk,smell_my_city_pgh_reports,smell_my_city_pgh_wind&bt=201904010000&et=201904100000&startDwell=0&endDwell=0" target="_blank" rel="noopener noreferrer"> 
 	    	[ LIVE VERSION ]</a> 
 	    </p>
 	    <br/>

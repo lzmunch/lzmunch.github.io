@@ -4,7 +4,6 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add t
 import {
 	ProjectTitle,
 	ProjectSubtitle,
-	ProjectTechnologies,
 	ProjectLink,
 	ProjectOverview,
 } from './ProjectClasses';

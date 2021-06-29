@@ -4,7 +4,6 @@ import ProjectModalImage from '../ProjectModalImage'
 import {
 	ProjectTitle,
 	ProjectSubtitle,
-	ProjectTechnologies,
 	ProjectOverview,
 	ProjectCaption,
 	ProjectLink,

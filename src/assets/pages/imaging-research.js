@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectModalImage from './ProjectModalImage';
-import { Route } from "react-router-dom";
 import {
 	ProjectOverview,
 } from './ProjectClasses';

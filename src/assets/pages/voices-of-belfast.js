@@ -6,7 +6,6 @@ import {
 	ProjectSubtitle,
 	ProjectTechnologies,
 } from './ProjectClasses';
-// <a href="url" target="_blank" rel="noopener noreferrer">
 
 const project = () => ( 
 	<div className="Project">

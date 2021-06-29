@@ -29,7 +29,7 @@ function getGalleryBoxes(scope) {
     // gallery box redirects to external link
     if (gb.redirect && filter.includes(gb.link)){
       items.push(
-        <a href={gb.redirect} target="_blank" className="Box">
+        <a href={gb.redirect} target="_blank" rel="noopener noreferrer" className="Box">
           <div className="CaptionOverlay"> {gb.desc} </div>
           <img src={require("" + thumbnailsPath + gb.link + gb.filetype)} alt={"thumbnail for " + gb.desc}/> 
         </a>

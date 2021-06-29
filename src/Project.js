@@ -19,9 +19,9 @@ import GnomesPage from './assets/pages/bvw/gnomes-in-a-robe';
 import { resumeLink } from './assets/pages/index';
 
 class Project extends Component {
-  constructor(props) {
-    super(props); 
-  }
+  // constructor(props) {
+  //   super(props); 
+  // }
   componentDidMount() {
     window.scrollTo(0, 0);
     // window.scrollTo({top: 0, behavior: 'smooth'});
