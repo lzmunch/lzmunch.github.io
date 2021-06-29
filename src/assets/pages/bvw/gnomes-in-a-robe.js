@@ -1,5 +1,4 @@
 import React from 'react';
-import InstagramEmbed from 'react-instagram-embed';
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ProjectModalImage from '../ProjectModalImage'
 import {

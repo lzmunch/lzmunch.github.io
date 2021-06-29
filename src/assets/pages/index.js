@@ -1,6 +1,3 @@
-// export {default as MiiPage} from './mii';
-
-
 const code = ["white", "create-lab", "imaging-research", "virtual-cmu-fence", "3d-shadow-anim"];
 const fun = ["white", "test", "sneeple", "mii"];
 const art = ["white", "drunko-brunko", "gnomes-in-a-robe", "grasshopper", "voices-of-belfast", "ems", "traditional", "digital"];
@@ -16,11 +13,9 @@ export const galleryCategories = {
     "all" : Array.from(all)
 };
 
-// const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
-// export const resumeLink = "https://drive.google.com/file/d/1zaWOj4gcUEn0fyXEKrqQgwa-tArcW12K/view?usp=sharing";
 export const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vQcH7QWKh1PoMcpn4ojiEpIFKJ_OB_j2UVllArwLEFmZNdUl3Jjn_2SBKy6TqJUODG12XQ0qv_Eq2rL/pub"
 
-export const lastUpdateTime = "02/10/2021"
+export const lastUpdateTime = "06/29/2021"
 
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
-// import ReactEmbedGist from 'react-embed-gist';
 import Gallery from './Gallery';
 
 import TestPage from './assets/pages/test';
