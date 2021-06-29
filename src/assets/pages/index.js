@@ -17,7 +17,8 @@ export const galleryCategories = {
 };
 
 // const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vTXxkb2OZLoH1P1nq28pMjGIp_--eJyJep3qC8vsTO67oX8AoxtgkAHmE-KShgOwuDFXW4Y2hDdb4Ro/pub";
-export const resumeLink = "https://drive.google.com/file/d/1zaWOj4gcUEn0fyXEKrqQgwa-tArcW12K/view?usp=sharing";
+// export const resumeLink = "https://drive.google.com/file/d/1zaWOj4gcUEn0fyXEKrqQgwa-tArcW12K/view?usp=sharing";
+export const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vQcH7QWKh1PoMcpn4ojiEpIFKJ_OB_j2UVllArwLEFmZNdUl3Jjn_2SBKy6TqJUODG12XQ0qv_Eq2rL/pub"
 
 export const lastUpdateTime = "02/10/2021"
 
