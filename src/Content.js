@@ -6,8 +6,9 @@ import Project from './Project.js';
 import './Content.css';
 import { 
   projectInfos,
-  lastUpdateTime,
+  // lastUpdateTime,
 } from './assets/pages/index'
+var lastUpdateTime = require("../package.json").lzmunch.date 
 
 class App extends Component {
   constructor(props) {
