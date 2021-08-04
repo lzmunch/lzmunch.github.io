@@ -1,7 +1,10 @@
+// set projects to list under each category
 const code = ["white", "create-lab", "imaging-research", "virtual-cmu-fence", "3d-shadow-anim"];
 const fun = ["white", "test", "sneeple", "mii"];
 const art = ["white", "drunko-brunko", "gnomes-in-a-robe", "grasshopper", "voices-of-belfast", "ems", "traditional", "digital"];
 const home = ["drunko-brunko", "gnomes-in-a-robe", "imaging-research", "virtual-cmu-fence", "create-lab", "grasshopper", "3d-shadow-anim"];
+
+// concat all categories to list under 'all'
 let all = new Set();
 code.concat(fun).concat(art.concat(home)).forEach(x => all.add(x));
 
@@ -15,7 +18,7 @@ export const galleryCategories = {
 
 export const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vQcH7QWKh1PoMcpn4ojiEpIFKJ_OB_j2UVllArwLEFmZNdUl3Jjn_2SBKy6TqJUODG12XQ0qv_Eq2rL/pub"
 
-export const lastUpdateTime = "06/29/2021"
+export const lastUpdateTime = "08/03/2021"
 
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js
