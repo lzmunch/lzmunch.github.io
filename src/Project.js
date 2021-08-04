@@ -54,16 +54,17 @@ class Project extends Component {
       case "gnomes-in-a-robe": 
         return ( <GnomesPage/>);
       case "home": 
+        // TODO move style into css file
         return (
           <div id="homepage">
             <div className="Project">
               <h3>Software Developer + Creative</h3>
               <h3><a href={resumeLink} target="_blank" rel="noopener noreferrer">[Resume]</a></h3>
             </div>
-            <div style={{maxWidth:"100%",marginLeft:"1%"}}>
+            <div style={{maxWidth:"100%",marginLeft:"0%"}}>
               <iframe src={demoReelLink} width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
            </div>
-           <div style={{maxWidth:"75%",marginLeft:"13%"}}>   
+           <div style={{maxWidth:"75%",marginLeft:"14.5%"}}>   
               <Gallery current="home"/>
            </div>
            <p><a href="#/all">[All projects]</a></p>
