@@ -18,7 +18,7 @@ export const galleryCategories = {
 
 export const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vQcH7QWKh1PoMcpn4ojiEpIFKJ_OB_j2UVllArwLEFmZNdUl3Jjn_2SBKy6TqJUODG12XQ0qv_Eq2rL/pub"
 
-export const demoReelLink = "https://player.vimeo.com/video/512120578"
+export const demoReelLink = "https://player.vimeo.com/video/676769275"
 
 // export const lastUpdateTime = "08/03/2021"
 
