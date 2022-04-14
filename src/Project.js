@@ -16,6 +16,8 @@ import GrasshopperPage from './assets/pages/grasshopper';
 import DrunkoBrunkoPage from './assets/pages/bvw/drunko-brunko';
 import GnomesPage from './assets/pages/bvw/gnomes-in-a-robe';
 
+import MayaToonScriptPage from './assets/pages/maya-toon-script';
+
 import { resumeLink, demoReelLink } from './assets/pages/index';
 
 class Project extends Component {
@@ -53,6 +55,8 @@ class Project extends Component {
         return ( <DrunkoBrunkoPage/>);
       case "gnomes-in-a-robe": 
         return ( <GnomesPage/>);
+      case "maya-toon-script": 
+        return ( <MayaToonScriptPage/>);
       case "home": 
         // TODO move style into css file
         return (

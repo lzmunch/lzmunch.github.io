@@ -1,8 +1,38 @@
 // set projects to list under each category
-const code = ["white", "create-lab", "imaging-research", "virtual-cmu-fence", "3d-shadow-anim"];
-const fun = ["white", "test", "sneeple", "mii"];
-const art = ["white", "drunko-brunko", "gnomes-in-a-robe", "grasshopper", "voices-of-belfast", "ems", "traditional", "digital"];
-const home = ["drunko-brunko", "gnomes-in-a-robe", "imaging-research", "virtual-cmu-fence", "create-lab", "grasshopper", "3d-shadow-anim"];
+const code = [
+		"white",
+		"maya-toon-script", 
+		"create-lab", 
+		"imaging-research", 
+		"virtual-cmu-fence", 
+		"3d-shadow-anim"
+];
+const fun = [
+		"white", 
+		"test", 
+		"sneeple", 
+		"mii"
+		];
+const art = [
+		"white", 
+		"drunko-brunko", 
+		"gnomes-in-a-robe", 
+		"grasshopper", 
+		"voices-of-belfast", 
+		"ems", 
+		"traditional", 
+		"digital"
+];
+const home = [
+		"maya-toon-script",
+		"drunko-brunko", 
+		"gnomes-in-a-robe", 
+		"imaging-research", 
+		"virtual-cmu-fence", 
+		"create-lab", 
+		"grasshopper", 
+		"3d-shadow-anim"
+];
 
 // concat all categories to list under 'all'
 let all = new Set();
@@ -25,6 +55,11 @@ export const lastUpdateTime = "02/13/2022"
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js
 export const projectInfos = [
+	{
+		link: "maya-toon-script",
+		filetype: ".jpg",
+		desc: "Maya Toon Line Tool",
+	},
 	{
 		link: "gnomes-in-a-robe",
 		filetype: ".jpg",
