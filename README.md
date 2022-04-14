@@ -16,6 +16,13 @@ Link to website
 * Deploy to gh-pages branch with `npm run deploy` and check for bugs. If you need to roll back, switch to master branch and deploy to gh-pages from there.
 * Switch to master and then pull in feature branch with `git pull origin feature`
 
-## Todos
+## Notes
+### TODO
 * Remove extra `ProjectModalImage` class
-* Create href class that includes`target="_blank"` and `rel=noopener noreferrer"` 
+* Create href class that includes`target="_blank"` and `rel=noopener noreferrer"`
+* Update React and deal with outdated dependencies
+
+### React Server Refresh Problem
+* When running `npm start` from Windows Terminal, server will not recompile files after they are updated 
+* Refresh works when using Ubuntu app directly and terminal in VS Code
+* WSL Ubuntu LTS 18.04
