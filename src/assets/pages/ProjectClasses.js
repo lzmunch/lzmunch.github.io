@@ -92,12 +92,11 @@ export class ProjectOverview extends Component {
         return (
             <div className="ProjectOverview">
                 {this.props.objective ? 
-                    <div><p><b>Objective:</b> {this.props.objective}</p></div> : null}
+                    <div><p><b>Objective:</b> {this.props.objective}</p><br/></div> : null}
                 {this.props.contribution ? 
-                    <div><p><b>Contribution:</b> {this.props.contribution}</p></div> : null}
+                    <div><p><b>Contribution:</b> {this.props.contribution}</p><br/></div> : null}
                 {this.props.tech ? 
-                    <div><p><b>Technologies Used:</b> {this.props.tech}</p></div> : null}
-                <br/>
+                    <div><p><b>Technologies Used:</b> {this.props.tech}</p><br/></div> : null}
                 {this.props.time ? 
                     <div><p><b>Time:</b> {this.props.time}</p></div> : null}
             </div>
