@@ -4,11 +4,7 @@ import ProjectModalImage from './ProjectModalImage'
 import {
 	ProjectTitle,
 	ProjectSubtitle,
-	ProjectTechnologies,
-	ProjectOverview,
-	ProjectCaption,
 	ProjectLink,
-	ProjectImageRow
 } from './ProjectClasses';
 
 const project = () => ( 

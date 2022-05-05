@@ -14,6 +14,7 @@ const fun = [
 		"mii"
 		];
 const art = [
+		"inner-matter",
 		"white", 
 		"drunko-brunko", 
 		"gnomes-in-a-robe", 
@@ -24,6 +25,7 @@ const art = [
 		"digital"
 ];
 const home = [
+		"inner-matter",
 		"maya-toon-script",
 		"drunko-brunko", 
 		"gnomes-in-a-robe", 
@@ -55,6 +57,11 @@ export const demoReelLink = "https://player.vimeo.com/video/676769275"
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js
 export const projectInfos = [
+	{
+		link: "inner-matter",
+		filetype: ".jpg",
+		desc: "VR Meditation with Biofeedback",
+	},
 	{
 		link: "maya-toon-script",
 		filetype: ".jpg",
