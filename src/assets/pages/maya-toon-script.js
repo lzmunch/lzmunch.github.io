@@ -22,6 +22,8 @@ const project = () => (
 	    	<a href="https://vimeo.com/699625309">Vimeo Link</a>
 	    </p>
 
+		<p>This page is a work in progress.</p>
+
 	    <ScrollUpButton/>
 	</div>
 );
