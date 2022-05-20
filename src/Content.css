@@ -291,3 +291,8 @@ iframe{
     text-align: center;
     margin: auto !important;
 }
+
+.doc-iframe {
+    width: 100%;
+    height: 600px;
+}
