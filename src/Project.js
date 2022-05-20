@@ -18,6 +18,7 @@ import GnomesPage from './assets/pages/bvw/gnomes-in-a-robe';
 
 import MayaToonScriptPage from './assets/pages/maya-toon-script';
 import InnerMatterPage from './assets/pages/inner-matter';
+import TimePassesPage from './assets/pages/time-passes';
 
 import { resumeLink, demoReelLink } from './assets/pages/index';
 
@@ -60,6 +61,8 @@ class Project extends Component {
         return ( <MayaToonScriptPage/>);
       case "inner-matter": 
         return ( <InnerMatterPage/>);
+      case "time-passes": 
+        return ( <TimePassesPage/>);
       case "home": 
         // TODO move style into css file
         return (

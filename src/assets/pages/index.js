@@ -15,6 +15,7 @@ const fun = [
 		];
 const art = [
 		"inner-matter",
+		"time-passes",
 		"white", 
 		"drunko-brunko", 
 		"gnomes-in-a-robe", 
@@ -26,6 +27,7 @@ const art = [
 ];
 const home = [
 		"inner-matter",
+		"time-passes",
 		"maya-toon-script",
 		"drunko-brunko", 
 		"gnomes-in-a-robe", 
@@ -57,6 +59,11 @@ export const demoReelLink = "https://player.vimeo.com/video/676769275"
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js
 export const projectInfos = [
+	{
+		link: "time-passes",
+		filetype: ".jpg",
+		desc: "Time Passes in the Blink of an Eye (Animated Short)",
+	},
 	{
 		link: "inner-matter",
 		filetype: ".jpg",
