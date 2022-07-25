@@ -1,11 +1,12 @@
 {
   "name": "portfolio-website",
   "lzmunch": {
-    "date": "05/20/2022"
+    "date": "07/24/2022"
   },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "package.json": "^2.0.1",
     "react": "^17.0.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.6.3",
