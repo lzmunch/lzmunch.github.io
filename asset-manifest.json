@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ad7e7e80.css",
-    "main.js": "/static/js/main.fc314dd1.js",
+    "main.js": "/static/js/main.36d60d4c.js",
     "static/media/mii_simulator_gallery.gif": "/static/media/mii_simulator_gallery.446569f8e5d03627a60c.gif",
     "static/media/voice_of_befast_useMe.mp4": "/static/media/voice_of_befast_useMe.3120ba0617b45c3a875e.mp4",
     "static/media/karen.gif": "/static/media/karen.9c8df61ab4a856da3477.gif",
@@ -82,10 +82,10 @@
     "static/media/logo.svg": "/static/media/logo.483f12000a83eecb9641.svg",
     "index.html": "/index.html",
     "main.ad7e7e80.css.map": "/static/css/main.ad7e7e80.css.map",
-    "main.fc314dd1.js.map": "/static/js/main.fc314dd1.js.map"
+    "main.36d60d4c.js.map": "/static/js/main.36d60d4c.js.map"
   },
   "entrypoints": [
     "static/css/main.ad7e7e80.css",
-    "static/js/main.fc314dd1.js"
+    "static/js/main.36d60d4c.js"
   ]
 }
