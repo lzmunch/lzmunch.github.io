@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Routes, Route, Link} from 'react-router-dom'; 
-import './App.css';
 import Gallery from './Gallery.js';
 import Project from './Project.js';
-import './Content.css';
+import './style/Content.css';
+import './style/App.css';
 import { 
   projectInfos,
 } from './assets/pages/index'
