@@ -2,7 +2,7 @@ import React from 'react';
 import {resumeLink} from './index';
 // import aboutImage from "../about.jpg";
 
-const project = () => ( 
+const project = () => (
 	<div className="Project">
 	  <img src={require("../about.jpg")} alt="me" style={{maxHeight:"300px"}}/>
 	  <h2>Software Developer + Creative</h2>

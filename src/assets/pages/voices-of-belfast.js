@@ -13,7 +13,7 @@ const project = () => (
 	    <ProjectSubtitle text="Geospatial Sound Map built in Unity"/>
 	    <ProjectSubtitle text="(Spring 2018)"/>
 
-	    <iframe src="https://player.vimeo.com/video/452956970" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	    <iframe title="voices-of-belfast" src="https://player.vimeo.com/video/452956970" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	    <p style={{textAlign:"center"}}>
 	    	<a href="https://vimeo.com/452956970">Vimeo Link</a>
 	    </p>

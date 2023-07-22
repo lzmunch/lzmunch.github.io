@@ -54,8 +54,6 @@ export const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vQcH7QWKh
 
 export const demoReelLink = "https://player.vimeo.com/video/676769275"
 
-// export const lastUpdateTime = "02/13/2022"
-
 // for adding gallery boxes and linking project pages
 // used in Content.js and Gallery.js
 export const projectInfos = [

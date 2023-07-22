@@ -25,7 +25,7 @@ const project = () => (
 	    <p>It uses Processing for edge detection and Unity to translate points into 3D space, generate meshes, and animate camera movements. I contributed to converting the data and generating the meshes in Unity, using some bash scripts for data processing.</p>
 	    <br/>
 		<p style={{textAlign:"center"}}><a href="https://vimeo.com/450247248">[Full video]</a></p>
-	    <iframe src="https://player.vimeo.com/video/450247248" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	    <iframe title="video-1" src="https://player.vimeo.com/video/450247248" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	</div>
 );
 
