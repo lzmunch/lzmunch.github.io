@@ -7,7 +7,8 @@ import './style/App.css';
 import { 
   projectInfos,
 } from './assets/pages/index'
-var lastUpdateTime = require("../package.json").lzmunch.date 
+var lastUpdateTime = require("../package.json").lzmunch.date
+var websiteVersion = require("../package.json").version
 
 class App extends Component {
   constructor(props) {
@@ -47,10 +48,9 @@ class App extends Component {
             </Routes>
             <br/>
             <br/>
-            <br/>
             <p>- - -</p>
             <p><i>Made with React</i></p>
-            <p><i>Last updated {lastUpdateTime}</i></p>
+            <p><i>Last updated {lastUpdateTime} ~ v{websiteVersion}</i></p>
             <br/>
         </div>
     );
