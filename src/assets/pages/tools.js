@@ -1,14 +1,14 @@
 import React from 'react';
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
-import ProjectModalImage from './ProjectModalImage'
+// import ProjectModalImage from './ProjectModalImage'
 import {
 	ProjectTitle,
-	ProjectSubtitle,
-	ProjectTechnologies,
-	ProjectOverview,
-	ProjectCaption,
-	ProjectLink,
-	ProjectImageRow
+	// ProjectSubtitle,
+	// ProjectTechnologies,
+	// ProjectOverview,
+	// ProjectCaption,
+	// ProjectLink,
+	// ProjectImageRow
 } from './ProjectClasses';
 
 const project = () => ( 

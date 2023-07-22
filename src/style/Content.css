@@ -1,0 +1,298 @@
+.Header{
+    position: relative; 
+    font-size: 20px; 
+    /*width: 90vw;*/
+    width: 100%;
+    /*padding-left: -17.5vw;*/
+    /*left: -17.5vw;*/
+    /*background: white; */
+    text-align: center; 
+    /*font-family: "courier prime";*/
+
+/*    background-color: black;
+    color: white;
+    padding-left: 20px;*/
+}
+.Header .button{
+/*    background-color: black;
+    padding-left:20px;
+    padding-right:20px;*/
+}
+#name{
+    font-size: 50px; 
+    padding: 5px; 
+    font-family: "courier prime";
+}
+#buttons{
+    /*width: 90vw; */
+    width:100%;
+    text-align: center; 
+    left: 0; 
+    right: 0; 
+    display: inline-block; 
+}
+
+.button{
+    font-size: 25px; 
+    /*background: black; */
+    border: none; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-bottom: 0px; 
+    display: inline-block; 
+    /*text-transform: uppercase;*/
+    text-decoration: none; 
+    /*color:  orange;*/
+    font-weight: normal; 
+
+}
+.button:hover{
+    cursor:pointer;
+    /*text-decoration: underline;*/
+}
+#line {
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    height: 2px;
+    background: black;
+}
+
+.Content {
+    /*width: 65vw; */
+    margin: auto;
+    /*margin-bottom: 10vh; */
+    margin-bottom: -100px; 
+    margin-top: -20px; 
+    background-color: white;
+    max-width: 1000px;
+}
+.Gallery{
+    margin-top: 30px; 
+    max-width: 100%;
+}
+.Project{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px; 
+    font-size: 16px; 
+    vertical-align: top; 
+    text-align: center;
+    /*text-align: left;*/
+    /*font-family: "Courier Prime";*/
+}
+.Project p{
+    text-align:left;
+    margin: auto;
+    /*max-width: 700px;*/
+    max-width: 80%;
+    /*line-height: 25px;*/
+    line-height:20px;
+}
+.Project h{
+    font-weight: bold;
+}
+.Project h2{
+    font-weight: normal;
+}
+.Project h3{
+    font-weight: normal;
+    margin: 5px;
+    /*line-height: 20px;*/
+}
+.Project h4{
+    font-weight: normal;
+    margin: 5px;
+    /*line-height: 20px;*/
+}
+.Project h6{
+    /*text-align:left;*/
+    margin: auto;
+    /*max-width: 700px;*/
+    max-width: 80%;
+    line-height: 25px;
+    font-size: inherit;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.center-align {
+    text-align: center !important;
+} 
+
+.Box img {
+    width: 300px; 
+    max-width: 100%; 
+    height: 300px; 
+    position: absolute; 
+    object-fit: cover;
+    z-index: 1; 
+    display: block; 
+}
+.Box {
+    display: inline-block; 
+    position: relative; 
+    width: 320px; 
+    max-width: 100%; 
+    height: 320px; 
+    margin: 0; 
+}
+.Overlay{
+    background: rgba(0, 0, 0, 0); 
+    width: 300px; 
+    max-width: 100%; 
+    height: 300px; 
+    position: absolute; 
+    margin: auto;
+    z-index: 2; 
+    text-align: center; 
+    transition: .3s; 
+    opacity: 0; 
+    line-height: 300px; 
+    text-transform: uppercase; 
+}
+
+.Overlay:hover{
+    background: rgba(0, 0, 0, .8); 
+    transition: .3s; 
+    opacity: 1;
+    color: white; 
+    font-style: normal;   
+}
+
+.CaptionOverlay{
+    background: rgba(0, 0, 0, .6); 
+    width: 300px; 
+    height: auto; 
+    position: absolute; 
+    margin: auto;
+    z-index: 2; 
+    text-align: center; 
+    line-height: 1.1em; 
+    padding: 0.8em 0em;
+    text-transform: uppercase; 
+    bottom:20px;
+    color: white;
+}
+
+#nothing{
+    display: none; 
+}
+
+#homepage{
+    width: 100%;
+    text-align: center;
+}
+
+.Project img {
+    margin: 10px; 
+    text-align: center;
+}
+
+h{
+    font-size: 35px; 
+    display: block;
+    margin: 10px; 
+}
+
+.smallImg{
+    width: 300px; 
+    max-width: 100%; 
+}
+.smallishImg{
+    width: 400px;
+    max-width: 100%;
+}
+.medImg{
+    width: 600px; 
+    max-width: 100%; 
+}
+.largeImg{
+    width: 700px; 
+    max-width: 100%; 
+}
+
+/* CSS FOR LINKS */
+a, a:visited{
+    text-decoration:none; 
+    /*font-weight: bold; */
+    color: rgb(219, 113, 37);
+    /*color: #00c7ad;*/
+/*    background-color: black;
+    color: #00ffea;
+    padding-left: 5px;
+    padding-right: 5px;*/
+}
+a:hover{
+    font-weight: bold;
+    /*color: rgb(219, 113, 37);*/
+    /*color: #00c7ad;*/
+    color: #80e0c0;
+    font-style: oblique;
+}
+.active{
+    font-weight: bold;
+    color: #80e0c0 !important;
+}
+
+.col{
+    max-width: 350px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top; 
+  }
+
+iframe{
+    margin: 10px; 
+    min-height: 300px;
+    max-width: 100%;
+}
+
+#frontpage img{
+    vertical-align: middle; 
+}
+
+.code{
+    width: 48%; 
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 40px; 
+    max-height: 450px; 
+    overflow-y: scroll; 
+}
+
+.explanation{
+    width: 48%; 
+    padding: 1%; 
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 40px; 
+}
+
+.invisble{  
+    color: green; 
+}
+
+.youtube{
+    width: 900px; 
+    max-width: 100%; 
+    height: 500px;
+}
+
+.smallVideo{
+    width: 500px; 
+    max-width: 100%; 
+    height: 300px;
+}
+
+.instagram-media {
+    text-align: center;
+    margin: auto !important;
+}
+
+.doc-iframe {
+    width: 100%;
+    height: 600px;
+}

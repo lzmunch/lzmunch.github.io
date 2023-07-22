@@ -1,14 +1,14 @@
-import React, { Component, useEffect} from 'react';
-import { Switch, Route, Link} from 'react-router-dom'; 
-import './App.css';
+import React, { Component } from 'react';
+import { Routes, Route, Link} from 'react-router-dom'; 
 import Gallery from './Gallery.js';
 import Project from './Project.js';
-import './Content.css';
+import './style/Content.css';
+import './style/App.css';
 import { 
   projectInfos,
-  // lastUpdateTime,
 } from './assets/pages/index'
-var lastUpdateTime = require("../package.json").lzmunch.date 
+var lastUpdateTime = require("../package.json").lzmunch.date
+var websiteVersion = require("../package.json").version
 
 class App extends Component {
   constructor(props) {
@@ -19,13 +19,13 @@ class App extends Component {
   }
   render() {
     let pageLinks = getPageLinks();
-    let decor = {l:"<", r:">"};
+    // let decor = {l:"<", r:">"};
     return (
         <div className="Content">
         <br></br>
             <div className="Header">
               <div id="name">
-                <img width="70px" alt="site logo" src={require("./assets/logo.svg")}/>
+                <img width="70px" alt="site logo" src={require("./assets/logo.png")}/>
                 <br/>
                 LAUREN ZHANG
               </div>
@@ -39,19 +39,18 @@ class App extends Component {
               <div id="line"></div>
               <br/>
             </div>
-            <Switch>
+            <Routes>
                 {pageLinks}
-                <Route path={'/about'} component={() => <Project link="about"/>} />
-                <Route path={'/all'} component={() => <Project link="all"/>} />
-                <Route path={'/'} component={() => <Project link="home"/>} />
-                <Route path={'/homepage'} component={() => <Gallery current="home"/>} />
-            </Switch>
-            <br/>
+                <Route path={'/about'} key='about' element={<Project link="about"/>} />
+                <Route path={'/all'} key='all' element={<Project link="all"/>} />
+                <Route path={'/'} key='root' element={<Project link="home"/>} />
+                <Route path={'/home'} key='home' element={<Project link="home"/>} />
+            </Routes>
             <br/>
             <br/>
             <p>- - -</p>
             <p><i>Made with React</i></p>
-            <p><i>Last updated {lastUpdateTime}</i></p>
+            <p><i>Last updated {lastUpdateTime} ~ v{websiteVersion}</i></p>
             <br/>
         </div>
     );
@@ -78,7 +77,7 @@ function getPageLinks() {
   // gallery pages
   let galleries = ["code", "fun", "art"];
   for (let g of galleries) {
-    items.push(<Route key={g} path={'/'+g} component={() => 
+    items.push(<Route key={g} path={'/'+g} element={
       <div style={{maxWidth:"75%",marginLeft:"13%"}}>
         <Gallery current={g}/>
       </div>
@@ -86,7 +85,8 @@ function getPageLinks() {
   }
   // project pages, from assets/pages/index.js
   for (let p of projectInfos) {
-    items.push(<Route path={'/'+p.link} component={() => <Project link={p.link}/>} />);
+    console.log('link', p.link)
+    items.push(<Route key='{p}' path={'/'+p.link} element={<Project link={p.link}/>} />);
   }
   return items;
 }

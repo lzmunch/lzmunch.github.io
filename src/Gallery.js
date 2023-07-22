@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom'; 
+// import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom'; 
+import {Link} from 'react-router-dom'; 
 import { galleryCategories, projectInfos } from './assets/pages/index'
 
 const thumbnailsPath = "./assets/thumbnails/"
@@ -29,7 +30,7 @@ function getGalleryBoxes(scope) {
     // gallery box redirects to external link
     if (gb.redirect && filter.includes(gb.link)){
       items.push(
-        <a href={gb.redirect} target="_blank" rel="noopener noreferrer" className="Box">
+        <a href={gb.redirect} key={gb.link} target="_blank" rel="noopener noreferrer" className="Box">
           <div className="CaptionOverlay"> {gb.desc} </div>
           <img src={require("" + thumbnailsPath + gb.link + gb.filetype)} alt={"thumbnail for " + gb.desc}/> 
         </a>
@@ -37,6 +38,7 @@ function getGalleryBoxes(scope) {
     // gallery box goes to project page
     } else {
       items.push(<Box 
+        key={gb.link}
         link={gb.link} 
         filetype={gb.filetype}  
         desc={gb.desc}

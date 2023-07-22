@@ -16,13 +16,32 @@ Link to website
 * Deploy to gh-pages branch with `npm run deploy` and check for bugs. If you need to roll back, switch to master branch and deploy to gh-pages from there.
 * Switch to master and then pull in feature branch with `git pull origin feature`
 
-## Notes
+## Other Notes
 ### TODO
+* Use Changelog correctly (automated)
 * Remove extra `ProjectModalImage` class
 * Create href class that includes`target="_blank"` and `rel=noopener noreferrer"`
-* Update React and deal with outdated dependencies
+* ~~Update React and deal with outdated dependencies~~
 
-### React Server Refresh Problem
-* When running `npm start` from Windows Terminal, server will not recompile files after they are updated 
-* Refresh works when using Ubuntu app directly and terminal in VS Code
-* WSL Ubuntu LTS 18.04
+### Dev Environment
+* Windows 10
+* Node v18.17.0
+
+### Upgrading Depenencies
+In the rare case this website lasts another 5 years and requires more extensive depenency upgrades, I've documented the steps I took here.
+* Learn how Node and React work again (lol)
+* Make backup of package-lock.json
+* Delete node_modules/
+* Install newest version of Node using nvm (preserve old install)
+* Remove unused package dependencies from package.json
+* Change all versions in package.json to `"latest"`
+* Run `npm install --save`
+* Update version in package.json based on generated pacakge-lock.json (not really necessary but I find it useful for future reference)
+* Run `npm install --save` again to verify everything works
+* Run `npm run start`
+* Pray
+* Run `npm audit fix` to address issues that do not require attention
+
+Troubleshooting after upgrades
+* Check which package dependencies have been deprecated completely/are unusable post-upgrade. Remove them if possible.
+* If not possible, revert other versions until it works, checking resolves with `npm install`

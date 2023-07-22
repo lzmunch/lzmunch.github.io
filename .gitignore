@@ -1,2 +1,8 @@
 node_modules/
 build/
+.vscode/
+.code-workspace
+
+# for my personal dev habits
+__node_modules/
+__backup/

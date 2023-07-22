@@ -24,7 +24,7 @@ const project = () => (
 
 	    <br/>
 
-	    <iframe src="https://player.vimeo.com/video/708394728" frameborder="0" width="640" height="360" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	    <iframe title="time-passes" src="https://player.vimeo.com/video/708394728" frameborder="0" width="640" height="360" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
         <br/>
         <br/>
@@ -34,7 +34,7 @@ const project = () => (
 
         <br/>
 
-        <iframe src="https://player.vimeo.com/video/707990986" frameborder="0" width="640" height="360" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe title="documentation" src="https://player.vimeo.com/video/707990986" frameborder="0" width="640" height="360" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 	    <ScrollUpButton/>
 	</div>
