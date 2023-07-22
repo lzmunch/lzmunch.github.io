@@ -9,12 +9,17 @@ Link to website
 * Edit `src/assets/index.js` to export module and add entry for project linking and gallery box creation
 * Edit `src/Project.js` to import module and add a switch case
 
-## Workflow
+Docs
+* Update CHANGELOG
+
+## Deployment Workflow
 * `npm run start` to start local server
 * Make changes to feature branch for local development, commit, push, etc.
 * Update `date` field in `package.json` to show when webpage was last updated.
 * Deploy to gh-pages branch with `npm run deploy` and check for bugs. If you need to roll back, switch to master branch and deploy to gh-pages from there.
 * Switch to master and then pull in feature branch with `git pull origin feature`
+* At the end, create a new tag + release. Copy the changelog info and include a link to a diff with the previous version, using this link format:
+    > `https://github.com/lzmunch/lzmunch.github.io/compare/<old-tag>...<new-tag>`
 
 ## Other Notes
 ### TODO

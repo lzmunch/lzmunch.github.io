@@ -3,7 +3,7 @@
   "lzmunch": {
     "date": "07/21/2023"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "package.json": "latest",
