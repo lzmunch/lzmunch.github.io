@@ -1,22 +1,19 @@
 {
   "name": "portfolio-website",
   "lzmunch": {
-    "date": "07/24/2022"
+    "date": "07/21/2023"
   },
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "package.json": "^2.0.1",
-    "react": "^17.0.0",
-    "react-addons-css-transition-group": "^15.6.2",
+    "package.json": "latest",
+    "react": "^16.0.0",
     "react-dom": "^16.6.3",
-    "react-embed-gist": "^1.0.7",
-    "react-instagram-embed": "3.0.0",
-    "react-modal-image": "^2.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
-    "react-scroll-up-button": "^1.6.4",
-    "react-simple-modal-slideshow": "^1.0.1"
+    "react-embed-gist": "^1.0.17",
+    "react-modal-image": "^2.6.0",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-scroll-up-button": "^1.6.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,6 +33,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "latest",
     "gh-pages": "^2.0.1"
   },
   "homepage": "https://lzmunch.github.io/"

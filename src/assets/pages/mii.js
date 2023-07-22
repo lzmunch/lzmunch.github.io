@@ -1,5 +1,4 @@
 import React from 'react';
-import InstagramEmbed from 'react-instagram-embed';
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ProjectModalImage from './ProjectModalImage';
 import {
@@ -23,18 +22,8 @@ const project = () => (
 	    <br/>
 	    <p>Set up to work with Wii controllers and displayed at <a href="https://www.instagram.com/theframegallerycmu/">The Frame Gallery</a> at CMU with the xX_CutePixel_Xx show</p>
 	    <br/>
-	    <InstagramEmbed
-		   url='https://www.instagram.com/p/B8TM6OOn21t/?utm_source=ig_web_copy_link'
-		   maxWidth={600}
-		   hideCaption={true}
-		   containerTagName='div'
-		   protocol=''
-		   injectScript
-		   onLoading={() => {}}
-		   onSuccess={() => {}}
-		   onAfterRender={() => {}}
-		   onFailure={() => {}}/>
-		<br/>
+
+	    <iframe title="video-1" src="https://player.vimeo.com/video/847484116" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 		<p><b>Process</b></p> 
 	    <p>I discovered my old Wii controllers at home and I was interested in creating an interaction centered around it, and the nostalgia of the Wii. For the show, I wanted to use a projector for more immersion, and the humor of seeing the Mii models so large.</p>
