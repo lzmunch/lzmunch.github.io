@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 The format is loosley based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.3 - 2023-07-23
+
+- Update CSS so website looks better on mobile
+- Minor updates to dev section in README
+
 ## v1.0.2 - 2023-07-21
 
 - Stop trying to use links in manually maintained changelog because this was a failed venture from the beginning
