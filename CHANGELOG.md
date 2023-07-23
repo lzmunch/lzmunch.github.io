@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## v1.0.3 - 2023-07-23
 
 - Update CSS so website looks better on mobile
+- Minor updates to dev section in README
 
 ## v1.0.2 - 2023-07-21
 
